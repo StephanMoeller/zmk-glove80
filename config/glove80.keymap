@@ -15,8 +15,11 @@
 
 // layers
 #define DEFAULT 0
-#define LOWER 1
-#define MAGIC 2
+#define ARROWS 1
+#define NUMBERS 2
+#define MAGIC 3
+#define  &trans
+
 #define FACTORY_TEST 3
 #define DK_LT NON_US_BACKSLASH
 #define DK_GT LS(NON_US_BACKSLASH)
@@ -103,45 +106,46 @@
 
         default_layer {
 
-            // ---------------------------------------------------------------------------------------------------------------------------------
-            // |  F1   |  F2 |  F3 |  F4  |  F5  |                                                               |  F6   |  F7   |  F8  |   F9  |  F10 |
-            // |  =    |  1  |  2  |  3   |  4   |  5   |                                                 |  6   |   7   |   8   |  9   |   0   |   -  |
-            // |  TAB  |  Q  |  W  |  E   |  R   |  T   |                                                 |  Y   |   U   |   I   |  O   |   P   |   \  |
-            // |  ESC  |  A  |  S  |  D   |  F   |  G   |                                                 |  H   |   J   |   K   |  L   |   ;   |   '  |
-            // |   `   |  Z  |  X  |  C   |  V   |  B   | LSHFT | LCTRL | LOWER | | LGUI  | RCTRL | RSHFT |  N   |   M   |   ,   |  .   |   /   | PGUP |
-            // | MAGIC | HOME| END | LEFT | RIGHT|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
-
             bindings = <
-            &trans          &trans   &trans      &trans      &trans                                                                                         &trans     &trans      &trans      &trans    &trans
-            &trans          &trans   &trans      &trans      &trans      &trans                                                                     &trans  &trans     &trans      &trans      &trans    &trans
-            &trans          &kp Q     &kp W       &hm LGUI R  &kp P      &kp B                                                                      &kp K   &kp L      &hm LGUI O  &kp U       &kp BSLH  &trans
-            &trans          &kp F     &hm LALT A  &hm LCTL S  &hm LSFT T &kp G                                                                      &kp M   &hm LSFT N &hm LCTL E  &hm LALT I  &kp Y     &trans
-            &trans          &kp Z     &kp X       &kp C       &kp D      &kp V   &bootloader &kp LCTRL   &trans  &kp LGUI  &kp RCTRL &bootloader &kp J   &kp H      &kp COMMA   &kp DOT     &kp SLASH &trans
-            &magic MAGIC 0  &kp HOME &kp END     &kp LEFT    &kp RIGHT           &kp ENTER   &kp DEL     &kp LALT   &kp RALT  &kp RET   &kp SPACE           &trans     &trans      &trans      &trans    &trans
+                     ______   ______      ______      ______                                                                                         ______     ______      ______      ______    ______
+                     ______   ______      ______      ______      ______                                                                     ______  ______     ______      ______      ______    ______
+                     &kp Q     &kp W       &hm LGUI R  &kp P      &kp B                                                                      &kp K   &kp L      &hm LGUI O  &kp U       &kp BSLH  ______
+                     &kp F     &hm LALT A  &hm LCTL S  &hm LSFT T &kp G                                                                      &kp M   &hm LSFT N &hm LCTL E  &hm LALT I  &kp Y     ______
+                     &kp Z     &kp X       &kp C       &kp D      &kp V   &bootloader &kp LCTRL   ______  &kp LGUI  &kp RCTRL &bootloader    &kp J   &kp H      &kp COMMA   &kp DOT     &kp SLASH ______
+            &magic MAGIC 0     ______       ______      ______             &kp ENTER   &kp DEL     &kp LALT   &kp RALT  &kp RET   &kp SPACE          ______     ______      ______      ______    ______
             >;
         };
 
         arrows {
             bindings = <
-            &trans  &trans      &trans          &trans          &trans                                                                                                               &trans     &trans       &trans        &trans          &trans
-            &trans  &trans      &trans          &trans          &trans          &trans                                                                                &trans         &trans     &trans       &trans        &trans          &kp PSCRN
-            &trans  &kp LS(N1)  &kp DK_LT       &kp LS(N0)      &kp DK_GT       &kp LS(N5)                                                                            &kp LS(N7)     &kp HOME   &kp UP       &kp END       &kp LS(MINUS)   &trans
-            &trans  &kp RA(N2)  &hm LALT RA(N7) &hm LCTL LS(N8) &hm LSFT LS(N9) &kp RA(N0)                                                                            &kp PG_UP      &kp LEFT   &kp DOWN     &kp RIGHT     &kp PG_DN       &trans
-            &trans  &kp DK_BACK &kp LS(N3)      &kp RA(N8)      &kp RA(N9)      &kp RA(N2)     &trans      &trans      &trans      &trans      &trans      &trans     &kp RA(EQUAL)  &kp TAB    &kp LS(N2)   &kp ESC       &kp MINUS       &trans
-            &trans  &trans      &trans          &trans          &trans                         &trans      &trans      &trans      &trans      &trans      &trans                    &trans     &trans       &trans        &trans          &trans
+              ______      ______          ______          ______                                                                                                               ______     ______       ______        ______          ______
+              ______      ______          ______          ______          ______                                                                                ______         ______     ______       ______        ______          &kp PSCRN
+              &kp LS(N1)  &kp DK_LT       &kp LS(N0)      &kp DK_GT       &kp LS(N5)                                                                            &kp LS(N7)     &kp HOME   &kp UP       &kp END       &kp LS(MINUS)   ______
+              &kp RA(N2)  &hm LALT RA(N7) &hm LCTL LS(N8) &hm LSFT LS(N9) &kp RA(N0)                                                                            &kp PG_UP      &kp LEFT   &kp DOWN     &kp RIGHT     &kp PG_DN       ______
+              &kp DK_BACK &kp LS(N3)      &kp RA(N8)      &kp RA(N9)      &kp RA(N2)     ______      ______      ______      ______      ______      ______     &kp RA(EQUAL)  &kp TAB    &kp LS(N2)   &kp ESC       &kp MINUS       ______
+              ______      ______          ______          ______                         ______      ______      ______      ______      ______      ______                    ______     ______       ______        ______          ______
             >;
         };
 
-
+        numbers {
+            bindings = <
+            ______ ______ ______   ______   ______   ______                                                                                                                ______ ______ ______ ______ ______ ______ 
+            ______ ______ ______   ______   ______   ______ ______                                                                                                  ______ ______ ______ ______ ______ ______ ______      
+            ______ ______ ______   ______   ______   ______ ______                                                                                                  ______ ______ &kp N7 &kp N8 &kp N9 ______ ______      
+            ______ ______ &kp LALT &kp LCTL &kp LSFT ______ ______                                                                                                  ______ ______ &kp N4 &kp N5 &kp N6 ______ ______      
+            ______ ______ ______   ______   ______   ______ ______                              ______      ______      ______      ______      ______      ______  ______ ______ &kp N1 &kp N2 &kp N3 ______ ______      
+            ______ ______ ______   ______   ______   ______                                     ______      ______      ______      ______      ______      &kp N0         ______ ______ ______ ______ ______ ______ 
+            >;
+        };
 
         magic_layer {
             bindings = <
-            &bt BT_CLR        &none               &none           &none           &none                                                                                                           &none      &none      &none      &none      &bt BT_CLR_ALL
-            &none             &none               &none           &none           &none           &none                                                                                &none      &none      &none      &none      &none      &none
-            &none             &rgb_ug RGB_SPI     &rgb_ug RGB_SAI &rgb_ug RGB_HUI &rgb_ug RGB_BRI &rgb_ug RGB_TOG                                                                      &none      &none      &none      &none      &none      &none
-            &bootloader       &rgb_ug RGB_SPD     &rgb_ug RGB_SAD &rgb_ug RGB_HUD &rgb_ug RGB_BRD &rgb_ug RGB_EFF                                                                      &none      &none      &none      &none      &none      &bootloader
-            &sys_reset        &none               &none           &none           &none           &none           &bt_2     &bt_3     &none            &none     &none     &none       &none      &none      &none      &none      &none      &sys_reset
-            &none             &none               &none           &none           &none                           &bt_0     &bt_1     &out OUT_USB     &none     &none     &none                  &none      &none      &none      &none      &to FACTORY_TEST
+            &bt BT_CLR                      ______          ______          ______                                                                                                          ______     ______     ______     ______     &bt BT_CLR_ALL
+                        ______              ______          ______          ______          ______                                                                               ______     ______     ______     ______     ______     &none
+                        trgb_ug RGB_SPI     &rgb_ug RGB_SAI &rgb_ug RGB_HUI &rgb_ug RGB_BRI &rgb_ug RGB_TOG                                                                      ______     ______     ______     ______     ______     &none
+            &bootloader       &rgb_ug RGB_SPD     &rgb_ug RGB_SAD &rgb_ug RGB_HUD &rgb_ug RGB_BRD &rgb_ug RGB_EFF                                                                           ______     ______     ______     ______     &bootloader
+            &sys_reset                      ______          ______          ______          ______          &bt_2     &bt_3     ______           ______    ______    ______      ______     ______     ______     ______     ______     &sys_reset
+                        ______              ______          ______          ______                          &bt_0     &bt_1     &out OUT_USB     ______    ______    ______                 ______     ______     ______     ______     &to FACTORY_TEST
             >;
         };
 
