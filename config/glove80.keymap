@@ -19,8 +19,7 @@
 #define NUMBERS 2
 #define FKEYS 3 
 #define MAGIC 4
-#define ______ &trans
-
+#define ______ &none
 #define FACTORY_TEST 3
 #define DK_LT NON_US_BACKSLASH
 #define DK_GT LS(NON_US_BACKSLASH)
@@ -143,7 +142,7 @@
             ______ ______  ______      ______      ______                                                                                                                 ______        ______        ______        ______ ______ 
             ______ ______  ______      ______      ______      ______                                                                                              ______ ______        ______        ______        ______ ______      
             ______ ______  &kp F7      &kp F8      &kp F9      &kp F10                                                                                             ______ ______        ______        ______        ______ ______
-            ______ &kp F12 &hm F4 LALT &hm F5 LCTL &hm F6 LSFT &kp F11                                                                                             ______ &hm LSFT BKSP &hm LCTL BKSP &hm LALT BKSP ______ ______
+            ______ &kp F12 &hm F4 LALT &hm F5 LCTL &hm F6 LSFT &kp F11                              ______ ______                                                  ______ &hm LSFT BKSP &hm LCTL BKSP &hm LALT BKSP ______ ______
             ______ ______  &kp F1      &kp F2      &kp F3      ______                    ______      ______      ______      ______      ______      ______        ______ &kp DEL        &kp DEL       &kp DEL      ______ ______
             ______ ______  ______      ______      ______                                ______      ______      ______      ______      ______      ______     &kp N0    ______        ______        ______        ______ ______ 
             >;
