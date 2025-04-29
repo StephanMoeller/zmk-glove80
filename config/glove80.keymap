@@ -18,7 +18,7 @@
 #define ARROWS 1
 #define NUMBERS 2
 #define MAGIC 3
-#define  &trans
+#define ______ &trans
 
 #define FACTORY_TEST 3
 #define DK_LT NON_US_BACKSLASH
