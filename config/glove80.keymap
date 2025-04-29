@@ -121,14 +121,14 @@
             >;
         };
 
-        lower_layer {
+        arrows {
             bindings = <
-            &kp C_BRI_DN      &kp C_BRI_UP        &kp C_PREV      &kp C_NEXT      &kp C_PP                                                                                                           &kp C_MUTE   &kp C_VOL_DN &kp C_VOL_UP  &none           &kp PAUSE_BREAK
-            &trans            &none               &none           &none           &none           &kp HOME                                                                              &kp LPAR     &kp KP_NUM   &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY &kp PSCRN
-            &trans            &none               &none           &kp UP          &none           &kp END                                                                               &kp RPAR     &kp KP_N7    &kp KP_N8    &kp KP_N9     &kp KP_MINUS    &kp SLCK
-            &trans            &none               &kp LEFT        &kp DOWN        &kp RIGHT       &kp PG_UP                                                                             &kp PRCNT    &kp KP_N4    &kp KP_N5    &kp KP_N6     &kp KP_PLUS     &none
-            &trans            &kp K_CMENU         &none           &kp F11         &kp F12         &kp PG_DN       &trans      &trans      &to DEFAULT &trans      &trans      &trans    &kp COMMA    &kp KP_N1    &kp KP_N2    &kp KP_N3     &kp KP_ENTER    &trans
-            &trans            &kp CAPS            &kp INS         &kp F11         &kp F12                         &trans      &trans      &trans      &trans      &trans      &trans                 &kp KP_N0    &kp KP_N0    &kp KP_DOT    &kp KP_ENTER    &trans
+            &trans  &trans      &trans          &trans          &trans                                                                                                               &trans     &trans       &trans        &trans          &trans
+            &trans  &trans      &trans          &trans          &trans          &trans                                                                                &trans         &trans     &trans       &trans        &trans          &kp PSCRN
+            &trans  &kp LS(N1)  &kp DK_LT       &kp LS(N0)      &kp DK_GT       &kp LS(N5)                                                                            &kp LS(N7)     &kp HOME   &kp UP       &kp END       &kp LS(MINUS)   &trans
+            &trans  &kp RA(N2)  &hm LALT RA(N7) &hm LCTL LS(N8) &hm LSFT LS(N9) &kp RA(N0)                                                                            &kp PG_UP      &kp LEFT   &kp DOWN     &kp RIGHT     &kp PG_DN       &trans
+            &trans  &kp DK_BACK &kp LS(N3)      &kp RA(N8)      &kp RA(N9)      &kp RA(N2)     &trans      &trans      &trans      &trans      &trans      &trans     &kp RA(EQUAL)  &kp TAB    &kp LS(N2)   &kp ESC       &kp MINUS       &trans
+            &trans  &trans      &trans          &trans          &trans                         &trans      &trans      &trans      &trans      &trans      &trans                    &trans     &trans       &trans        &trans          &trans
             >;
         };
 
