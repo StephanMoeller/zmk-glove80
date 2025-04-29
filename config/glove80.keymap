@@ -61,7 +61,7 @@
         combo_oe { timeout-ms = <50>; key-positions = <29 31>; bindings = <&kp SQT>;  layers = <0>; };
         combo_aa { timeout-ms = <50>; key-positions = <30 31>; bindings = <&kp LBKT>;  layers = <0>; };
         combo_dash { timeout-ms = <50>; key-positions = <42 43>; bindings = <&kp SLASH>; };
-        combo_alt_f4 { timeout-ms = <50>; key-positions = <38 41>; bindings = <&kp LA(F4)>; layers = <0>; };
+        combo_alt_f4 { timeout-ms = <50>; key-positions = <38 41>; bindings = <&kp LA(F4)>; };
         combo_excl { timeout-ms = <50>; key-positions = <24 25>; bindings = <&kp LS(N1)>; layers = <1>; };
         combo_question { timeout-ms = <50>; key-positions = <30 31>; bindings = <&kp LS(MINUS)>; layers = <1>; };
       };
