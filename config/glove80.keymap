@@ -20,6 +20,7 @@
 #define FACTORY_TEST 3
 #define DK_LT NON_US_BACKSLASH
 #define DK_GT LS(NON_US_BACKSLASH)
+#define DK_BACK RA(NON_US_BACKSLASH)
 / {
     behaviors {
       hm: homerow_mods {
