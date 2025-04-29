@@ -116,7 +116,7 @@
             &kp EQUAL      &kp N1   &kp N2      &kp N3      &kp N4      &kp N5                                                                     &kp N6  &kp N7     &kp N8      &kp N9      &kp N0    &kp MINUS
             &kp TAB        &kp Q     &kp W       &hm LGUI R  &kp P      &kp B                                                                      &kp K   &kp L      &hm LGUI O  &kp U       &kp BSLH  &kp BSLH
             &kp ESC        &kp F     &hm LALT A  &hm LCTL S  &hm LSFT T &kp G                                                                      &kp M   &hm LSFT N &hm LCTL E  &hm LALT I  &kp Y     &kp SQT
-            &kp GRAVE      &kp Z     &kp X       &kp C       &kp D      &kp V   &mo BOOTL   &kp LCTRL   &layer_td  &kp LGUI  &kp RCTRL &mo BOOTL   &kp J   &kp H      &kp COMMA   &kp DOT     &kp SLASH &kp PG_UP
+            &kp GRAVE      &kp Z     &kp X       &kp C       &kp D      &kp V   &bootloader &kp LCTRL   &layer_td  &kp LGUI  &kp RCTRL &bootloader &kp J   &kp H      &kp COMMA   &kp DOT     &kp SLASH &kp PG_UP
             &magic MAGIC 0 &kp HOME &kp END     &kp LEFT    &kp RIGHT           &kp ENTER   &kp DEL     &kp LALT   &kp RALT  &kp RET   &kp SPACE           &kp UP     &kp DOWN    &kp LBKT    &kp RBKT  &kp PG_DN
             >;
         };
