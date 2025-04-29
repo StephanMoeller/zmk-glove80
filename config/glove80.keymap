@@ -18,7 +18,8 @@
 #define LOWER 1
 #define MAGIC 2
 #define FACTORY_TEST 3
-
+#define DK_LT NON_US_BACKSLASH
+#define DK_GT LS(NON_US_BACKSLASH)
 / {
     behaviors {
       hm: homerow_mods {
@@ -125,9 +126,9 @@
             bindings = <
             &trans  &trans      &trans          &trans          &trans                                                                                                               &trans     &trans       &trans        &trans          &trans
             &trans  &trans      &trans          &trans          &trans          &trans                                                                                &trans         &trans     &trans       &trans        &trans          &kp PSCRN
-            &trans  &kp LS(N1)  &kp DK_LT       &kp LS(N0)      &kp DK_GT       &kp LS(N5)                                                                            &kp LS(N7)     &kp HOME   &kp UP       &kp END       &kp LS(RIGHT)   &trans
+            &trans  &kp LS(N1)  &kp DK_LT       &kp LS(N0)      &kp DK_GT       &kp LS(N5)                                                                            &kp LS(N7)     &kp HOME   &kp UP       &kp END       &kp LS(MINUS)   &trans
             &trans  &kp RA(N2)  &hm LALT RA(N7) &hm LCTL LS(N8) &hm LSFT LS(N9) &kp RA(N0)                                                                            &kp PG_UP      &kp LEFT   &kp DOWN     &kp RIGHT     &kp PG_DN       &trans
-            &trans  &kp DK_BACK &kp LS(N3)      &kp RA(N8)      &kp RA(N9)      &kp RA(N2)     &trans      &trans      &trans      &trans      &trans      &trans     &kp RA(EQUAL)  &kp TAB    &kp LS(N2)   &kp ESC       &kp RIGHT       &trans
+            &trans  &kp DK_BACK &kp LS(N3)      &kp RA(N8)      &kp RA(N9)      &kp RA(N2)     &trans      &trans      &trans      &trans      &trans      &trans     &kp RA(EQUAL)  &kp TAB    &kp LS(N2)   &kp ESC       &kp MINUS       &trans
             &trans  &trans      &trans          &trans          &trans                         &trans      &trans      &trans      &trans      &trans      &trans                    &trans     &trans       &trans        &trans          &trans
             >;
         };
