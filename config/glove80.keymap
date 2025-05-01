@@ -20,7 +20,7 @@
 #define FKEYS 3 
 #define MAGIC 4
 #define WIN_NAV 5
-#define ______ &none
+#define ______ &trans
 #define FACTORY_TEST 3
 #define DK_LT NON_US_BACKSLASH
 #define DK_GT LS(NON_US_BACKSLASH)
@@ -129,7 +129,7 @@
         default_layer {
             bindings = <
            ______          ______   ______      ______      ______                                                                                        ______     ______      ______      ______         ______
-           ______          ______   ______      ______      ______     ______                                                                     ______  ______     ______      ______      ______         ______
+           ______          ______   ______      &kp ESC     ______     ______                                                                     ______  ______     &kp TAB     ______      ______         ______
            ______          &kp Q    &kp W       &hm LGUI R  &kp P      &kp B                                                                      &kp K   &kp L      &hm LGUI O  &kp U       &kp BSLH       ______
            ______          &kp F    &hm LALT A  &hm LCTL S  &hm LSFT T &kp G                                                                      &kp M   &hm LSFT N &hm LCTL E  &hm LALT I  &kp Y          ______
            ______          &kp Z    &kp X       &kp C       &kp D      &kp V   &bootloader       ______ ______ ______ ______ &bootloader          &kp J   &kp H      &kp COMMA   &lt WIN_NAV DOT &kp SLASH  ______
@@ -143,8 +143,8 @@
             ______ ______      ______          ______          ______          ______                                                                                ______         ______     ______       ______        ______          &kp PSCRN
             ______ &kp LS(N1)  &kp DK_LT       &kp LS(N0)      &kp DK_GT       &kp LS(N5)                                                                            &kp LS(N7)     &kp HOME   &kp UP       &kp END       &kp LS(MINUS)   ______
             ______ &kp RA(N2)  &hm LALT RA(N7) &hm LCTL LS(N8) &hm LSFT LS(N9) &kp RA(N0)                                                                            &kp PG_UP      &kp LEFT   &kp DOWN     &kp RIGHT     &kp PG_DN       ______
-            ______ &kp DK_BACK &kp LS(N3)      &kp RA(N8)      &kp RA(N9)      &kp LS(N6) ______            ______      ______      ______      ______    ______     &kp RA(EQUAL)  &kp TAB    &kp LS(N2)   &kp ESC       &kp MINUS       ______
-            ______ ______      ______          ______          ______                 &thumbs NUMBERS SPACE ______      ______      ______      ______    ______                     ______     ______       ______        ______          ______
+            ______ &kp DK_BACK &kp LS(N3)      &kp RA(N8)      &kp RA(N9)      &kp LS(N6) ______            ______      ______      ______      ______    ______     &kp RA(EQUAL)  ______     &kp LS(N2)   ______        &kp MINUS       ______
+            ______ ______      ______          ______          ______                 &thumbs NUMBERS SPACE ______      ______      ______      ______    ______                    ______     ______       ______        ______          ______
             >;
         };
 
