@@ -180,7 +180,8 @@
                         ______              ______          ______          ______                          &bt_0     &bt_1     &out OUT_USB     ______    ______    ______                 ______     ______     ______     ______     &to FACTORY_TEST
             >;
         };
-        // todo: win layer, ctrl on backspace layer,& code
+        // todo: f keys away from left hand side on the double and then maybe a left-ring hold and numpad formation?
+        // numbers away from left thumb hold position to warm up to get some real shift back in our lives
         win_nav {
             bindings = <
             ______ ______      ______ ______     ______                                                                                               ______ ______ ______ ______ ______
