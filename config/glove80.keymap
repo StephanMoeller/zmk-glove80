@@ -51,7 +51,7 @@
             label = "thumb_stuff";
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <100>;
+            tapping-term-ms = <200>;
             bindings = <&mo>, <&kp>;
       };
     conditional_layers {
