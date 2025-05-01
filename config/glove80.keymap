@@ -27,9 +27,7 @@
 #define DK_BACK RA(NON_US_BACKSLASH)
 / {
     behaviors {
-    &lt {
-        tapping-term-ms = <50>; // This is the value already set by default
-    };
+
       hm: homerow_mods {
           compatible = "zmk,behavior-hold-tap";
           label = "HOMEROW_MODS";
@@ -48,7 +46,14 @@
             tapping-term-ms = <200>;
             bindings = <&mo>, <&rgb_ug_status_macro>;
       };
-
+      thumbs: thumb_balanced {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MAGIC_HOLD_TAP";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&mo>, <&rgb_ug_status_macro>;
+      };
     conditional_layers {
         compatible = "zmk,conditional-layers";
         tri_layer {
