@@ -48,11 +48,11 @@
       };
       thumbs: thumb_balanced {
             compatible = "zmk,behavior-hold-tap";
-            label = "MAGIC_HOLD_TAP";
+            label = "thumb_stuff";
             #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <200>;
-            bindings = <&mo>, <&rgb_ug_status_macro>;
+            flavor = "balanced";
+            tapping-term-ms = <100>;
+            bindings = <&mo>, <&kp>;
       };
     conditional_layers {
         compatible = "zmk,conditional-layers";
@@ -133,7 +133,7 @@
            ______          &kp Q    &kp W       &hm LGUI R  &kp P      &kp B                                                                      &kp K   &kp L      &hm LGUI O  &kp U       &kp BSLH       ______
            ______          &kp F    &hm LALT A  &hm LCTL S  &hm LSFT T &kp G                                                                      &kp M   &hm LSFT N &hm LCTL E  &hm LALT I  &kp Y          ______
            ______          &kp Z    &kp X       &kp C       &kp D      &kp V   &bootloader       ______ ______ ______ ______ &bootloader          &kp J   &kp H      &kp COMMA   &lt WIN_NAV DOT &kp SLASH  ______
-           &magic MAGIC 0  ______   ______      ______      ______             &lt NUMBERS ENTER ______ ______ ______ ______ &lt ARROWS SPACE             ______     ______      ______      ______         ______
+           &magic MAGIC 0  ______   ______      ______      ______         &thumbs NUMBERS ENTER ______ ______ ______ ______ &thumbs ARROWS SPACE         ______     ______      ______      ______         ______
             >;
         };
 
@@ -144,7 +144,7 @@
             ______ &kp LS(N1)  &kp DK_LT       &kp LS(N0)      &kp DK_GT       &kp LS(N5)                                                                            &kp LS(N7)     &kp HOME   &kp UP       &kp END       &kp LS(MINUS)   ______
             ______ &kp RA(N2)  &hm LALT RA(N7) &hm LCTL LS(N8) &hm LSFT LS(N9) &kp RA(N0)                                                                            &kp PG_UP      &kp LEFT   &kp DOWN     &kp RIGHT     &kp PG_DN       ______
             ______ &kp DK_BACK &kp LS(N3)      &kp RA(N8)      &kp RA(N9)      &kp LS(N6) ______            ______      ______      ______      ______    ______     &kp RA(EQUAL)  &kp TAB    &kp LS(N2)   &kp ESC       &kp MINUS       ______
-            ______ ______      ______          ______          ______                     &lt NUMBERS SPACE ______      ______      ______      ______    ______                     ______     ______       ______        ______          ______
+            ______ ______      ______          ______          ______                 &thumbs NUMBERS SPACE ______      ______      ______      ______    ______                     ______     ______       ______        ______          ______
             >;
         };
 
@@ -155,7 +155,7 @@
             ______ ______ ______   ______   ______   ______                                                                                                  ______ &kp N7 &kp N8 &kp N9 ______ ______      
             ______ ______ &kp LALT &kp LCTL &kp LSFT &kp K_APP                                                                                               ______ &kp N4 &kp N5 &kp N6 ______ ______      
             ______ ______ ______   ______   ______   ______                              ______      ______      ______      ______    ______      ______    ______ &kp N1 &kp N2 &kp N3 ______ ______      
-            ______ ______ ______   ______   ______                                       ______      ______      ______      ______    ______ &lt ARROWS N0         ______ ______ ______ ______ ______ 
+            ______ ______ ______   ______   ______                                       ______      ______      ______      ______    ______ &thumbs ARROWS N0     ______ ______ ______ ______ ______ 
             >;
         };
 
