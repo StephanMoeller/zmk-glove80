@@ -20,7 +20,7 @@
 #define FKEYS 3 
 #define MAGIC 4
 #define WIN_NAV 5
-#define ______ &none
+#define ______ &trans
 #define FACTORY_TEST 3
 #define DK_LT NON_US_BACKSLASH
 #define DK_GT LS(NON_US_BACKSLASH)
@@ -129,7 +129,7 @@
         default_layer {
             bindings = <
            ______          ______   ______      ______      ______                                                                                        ______     ______      ______      ______         ______
-           ______          ______   ______      ______      ______     ______                                                                     ______  ______     ______      ______      ______         ______
+           ______          ______   ______      &kp K_APP   ______     ______                                                                     ______  ______     ______      ______      ______         ______
            ______          &kp Q    &kp W       &hm LGUI R  &kp P      &kp B                                                                      &kp K   &kp L      &hm LGUI O  &kp U       &kp BSLH       ______
            ______          &kp F    &hm LALT A  &hm LCTL S  &hm LSFT T &kp G                                                                      &kp M   &hm LSFT N &hm LCTL E  &hm LALT I  &kp Y          ______
            ______          &kp Z    &kp X       &kp C       &kp D      &kp V   &bootloader       ______ ______ ______ ______ &bootloader          &kp J   &kp H      &kp COMMA   &lt WIN_NAV DOT &kp SLASH  ______
@@ -153,7 +153,7 @@
             ______ ______ ______   ______   ______                                                                                                                  ______ ______ ______ ______ ______ 
             ______ ______ ______   ______   ______   ______                                                                                                  ______ ______ ______ ______ ______ ______      
             ______ ______ ______   ______   ______   ______                                                                                                  ______ &kp N7 &kp N8 &kp N9 ______ ______      
-            ______ ______ &kp LALT &kp LCTL &kp LSFT &kp K_APP                                                                                               ______ &kp N4 &kp N5 &kp N6 ______ ______      
+            ______ ______ &kp LALT &kp LCTL &kp LSFT ______                                                                                                  ______ &kp N4 &kp N5 &kp N6 ______ ______      
             ______ ______ ______   ______   ______   ______                              ______      ______      ______      ______    ______      ______    ______ &kp N1 &kp N2 &kp N3 ______ ______      
             ______ ______ ______   ______   ______                                       ______      ______      ______      ______    ______ &thumbs ARROWS N0     ______ ______ ______ ______ ______ 
             >;
