@@ -47,7 +47,7 @@
 #define ENT ENTER
 / {
     behaviors {
-      gui: homerow_mods_right {
+      gui: homerow_mods_gui {
         compatible = "zmk,behavior-hold-tap";
           label = "HOMEROW_MODS_GUI";
           #binding-cells = <2>;
