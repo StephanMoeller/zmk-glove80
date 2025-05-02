@@ -20,7 +20,7 @@
 #define BACKSPACE_LAYER 3 
 #define FKEYS 4
 #define MAGIC 5
-#define WIN_NAV 5
+#define WIN_NAV 6
 #define ______ &none
 #define FACTORY_TEST 3
 #define DK_LT NON_US_BACKSLASH
