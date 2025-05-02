@@ -57,7 +57,6 @@
           flavor = "balanced";
           bindings = <&kp>, <&kp>;
           hold-trigger-key-positions = <LEFT_HAND_KEYS>;
-          hold-trigger-on-release;
       }; 
 
       lm: homerow_mods_left {
@@ -69,7 +68,6 @@
           flavor = "balanced";
           bindings = <&kp>, <&kp>;
           hold-trigger-key-positions = <RIGHT_HAND_KEYS>;
-          hold-trigger-on-release;
       };
       magic: magic_hold_tap {
             compatible = "zmk,behavior-hold-tap";
