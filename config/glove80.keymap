@@ -17,7 +17,7 @@
 #define DEFAULT 0
 #define ARROWS 1
 #define NUMBERS 2
-#define BACKSPACE 3 
+#define BACKSPACE_LAYER 3 
 #define FKEYS 4
 #define MAGIC 5
 #define WIN_NAV 5
