@@ -54,7 +54,7 @@
           tapping-term-ms = <350>;
           flavor = "tap-preferred";
           bindings = <&kp>, <&kp>;
-      }
+      };
       rm: homerow_mods_right {
           compatible = "zmk,behavior-hold-tap";
           label = "HOMEROW_MODS";
