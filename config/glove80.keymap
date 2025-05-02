@@ -47,7 +47,15 @@
 #define ENT ENTER
 / {
     behaviors {
-
+      gui: homerow_mods_right {
+        compatible = "zmk,behavior-hold-tap";
+          label = "HOMEROW_MODS_GUI";
+          #binding-cells = <2>;
+          tapping-term-ms = <350>;
+          flavor = "tap-preferred";
+          bindings = <&kp>, <&kp>;
+          hold-trigger-key-positions = <LEFT_HAND_KEYS>;
+      }
       rm: homerow_mods_right {
           compatible = "zmk,behavior-hold-tap";
           label = "HOMEROW_MODS";
@@ -55,7 +63,7 @@
           tapping-term-ms = <200>;
           flavor = "balanced";
           bindings = <&kp>, <&kp>;
-          hold-trigger-key-positions = <LEFT_HAND_KEYS>;
+        //  hold-trigger-key-positions = <LEFT_HAND_KEYS>;
       }; 
 
       lm: homerow_mods_left {
@@ -158,8 +166,8 @@
         default_layer {
             bindings = <
            ______          ______   ______      ______      ______                                                                                        ______     ______      ______          ______     ______
-           ______          ______   ______      &kp K_APP   ______     ______                                                                     ______  ______     ______      ______          ______     ______
-           ______          &kp Q    &lt FKEYS W &lm LGUI R  &kp P      &kp B                                                                      &kp K   &kp L      &rm LGUI O  &kp U           &kp BSLH   ______
+           ______          ______   ______      ______      ______     ______                                                                     ______  ______     ______      ______          ______     ______
+           ______          &kp Q    &lt FKEYS W &gui LGUI R &kp P      &kp B                                                                      &kp K   &kp L      &gui LGUI O &kp U           &kp BSLH   ______
            ______          &kp F    &lm LALT A  &lm LCTL S  &lm LSFT T &kp G                                                                      &kp M   &rm LSFT N &rm LCTL E  &rm LALT I      &kp Y      ______
            ______          &kp Z    &kp X       &kp C       &kp D      &kp V   &bootloader       ______ ______ ______ ______ &bootloader          &kp J   &kp H      &kp COMMA   &lt WIN_NAV DOT &kp SLASH  ______
            &magic MAGIC 0  ______   ______      ______      ______         &thumbs NUMBERS ENTER ______ ______ ______ ______ &thumbs ARROWS SPACE         ______     ______      ______          ______     ______
@@ -193,7 +201,7 @@
             ______ ______  ______  ______       ______                                                                                            ______        ______   ______   ______   ______ 
             ______ ______  ______  ______       ______  ______                                                                             ______ ______        ______   ______   ______   ______      
             ______ &kp SPC &kp SPC &kp SPC      &kp SPC ______                                                                             ______ ______        ______   ______   ______   ______
-            ______ &kp TAB &kp TAB &lm LCTL TAB &kp TAB ______                                                                             ______ &rm LSFT BKSP &kp BKSP &kp BKSP &kp BKSP ______
+            ______ &kp TAB &kp TAB &lm LCTL TAB &kp TAB &kp K_APP                                                                          ______ &rm LSFT BKSP &kp BKSP &kp BKSP &kp BKSP ______
             ______ &kp ENT &kp ENT &kp ENT      &kp ENT ______      ______      ______      ______      ______      ______ ______          ______ &kp DEL       &kp DEL  &kp DEL  &kp DEL  ______
             ______ ______  ______  ______       ______              ______      ______      ______      ______      ______ ______ &kp N0          ______        ______   ______   ______   ______ 
             >;
