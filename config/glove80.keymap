@@ -54,7 +54,7 @@
           #binding-cells = <2>;
           tapping-term-ms = <200>;
           quick_tap_ms = <175>;
-          flavor = "tap-preferred";
+          flavor = "balanced";
           bindings = <&kp>, <&kp>;
           hold-trigger-key-positions = <LEFT_HAND_KEYS>;
       }; 
@@ -65,7 +65,7 @@
           #binding-cells = <2>;
           tapping-term-ms = <200>;
           quick_tap_ms = <175>;
-          flavor = "tap-preferred";
+          flavor = "balanced";
           bindings = <&kp>, <&kp>;
           hold-trigger-key-positions = <RIGHT_HAND_KEYS>;
       };
