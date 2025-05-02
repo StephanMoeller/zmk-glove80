@@ -56,7 +56,7 @@
           quick_tap_ms = <175>;
           flavor = "tap-preferred";
           bindings = <&kp>, <&kp>;
-          //hold-trigger-key-positions = <LEFT_HAND_KEYS LEFT_THUMB_KEYS>;
+          hold-trigger-key-positions = <LEFT_HAND_KEYS>;
       }; 
 
       lm: homerow_mods_left {
@@ -67,7 +67,7 @@
           quick_tap_ms = <175>;
           flavor = "tap-preferred";
           bindings = <&kp>, <&kp>;
-          //hold-trigger-key-positions = <RIGHT_HAND_KEYS RIGHT_THUMB_KEYS>;
+          hold-trigger-key-positions = <RIGHT_HAND_KEYS>;
       };
       magic: magic_hold_tap {
             compatible = "zmk,behavior-hold-tap";
