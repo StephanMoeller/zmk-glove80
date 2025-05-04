@@ -165,7 +165,7 @@
         default_layer {
             bindings = <
            ______          ______   ______      ______      ______                                                                                        ______     ______      ______          ______     ______
-           ______          ______   ______      ______      ______     ______                                                                     ______  ______     ______      ______          ______     ______
+           ______          ______   ______      &kp TAB     ______     ______                                                                     ______  ______     &kp ESC     ______          ______     ______
            ______          &kp Q    &lt FKEYS W &gui LGUI R &kp P      &kp B                                                                      &kp K   &kp L      &gui LGUI O &kp U           &kp BSLH   ______
            ______          &kp F    &lm LALT A  &lm LCTL S  &lm LSFT T &kp G                                                                      &kp M   &rm LSFT N &rm LCTL E  &rm LALT I      &kp Y      ______
            ______          &kp Z    &kp X       &kp C       &kp D      &kp V   &bootloader       ______ ______ ______ ______ &bootloader          &kp J   &kp H      &kp COMMA   &lt WIN_NAV DOT &kp SLASH  ______
