@@ -17,11 +17,11 @@
 #define DEFAULT 0
 #define ARROWS 1
 #define NUMBERS 2
-#define BACKSPACE_LAYER 3 
-#define FKEYS 4
-#define MAGIC 5
-#define WIN_NAV 6
-#define NONE_LAYER 7
+#define FKEYS 3
+#define MAGIC 4
+#define WIN_NAV 5
+#define NONE_LAYER 6
+#define BACKSPACE_LAYER 7 
 
 #define ______ &none
 #define FACTORY_TEST 3
@@ -96,7 +96,7 @@
         compatible = "zmk,conditional-layers";
         tri_layer {
           if-layers = <1 2>;
-          then-layer = <3>;
+          then-layer = <6>;
         };
       };
 
@@ -197,17 +197,6 @@
             >;
         };
 
-        spamming_layer {
-            bindings = <
-            ______ ______  ______  ______       ______                                                                                            ______        ______   ______        ______   ______ 
-            ______ ______  ______  ______       ______  ______                                                                             ______ ______        ______   ______        ______   ______      
-            ______ &kp TAB &kp TAB &kp TAB      &kp TAB ______                                                                             ______ &kp TAB       &kp TAB  &kp TAB       &kp TAB  ______
-            ______ &kp SPC &kp SPC &lm LCTL SPC &kp SPC &kp K_APP                                                                          ______ &rm LSFT BKSP &kp BKSP &rm LALT BKSP &kp BKSP ______
-            ______ &kp ENT &kp ENT &kp ENT      &kp ENT ______      ______      ______      ______      ______      ______ ______          ______ &kp DEL       &kp DEL  &kp DEL       &kp DEL  ______
-            ______ ______  ______  ______       ______              ______      ______      ______      ______      ______ ______ &kp N0          ______        ______   ______        ______   ______ 
-            >;
-        };
-
         fkeys {
             bindings = <
             ______ ______  ______  ______   ______                                                                                          ______      ______      ______      ______  ______
@@ -252,6 +241,20 @@
             ______ ______      ______ ______     ______                       ______ ______      ______      ______      ______    ______             ______ ______ ______ ______ ______
             >;
         };
+
+        spamming_layer {
+            bindings = <
+            ______ ______  ______  ______       ______                                                                                            ______        ______   ______        ______   ______ 
+            ______ ______  ______  ______       ______  ______                                                                             ______ ______        ______   ______        ______   ______      
+            ______ &kp TAB &kp TAB &kp TAB      &kp TAB ______                                                                             ______ &kp TAB       &kp TAB  &kp TAB       &kp TAB  ______
+            ______ &kp SPC &kp SPC &lm LCTL SPC &kp SPC &kp K_APP                                                                          ______ &rm LSFT BKSP &kp BKSP &rm LALT BKSP &kp BKSP ______
+            ______ &kp ENT &kp ENT &kp ENT      &kp ENT ______      ______      ______      ______      ______      ______ ______          ______ &kp DEL       &kp DEL  &kp DEL       &kp DEL  ______
+            ______ ______  ______  ______       ______              ______      ______      ______      ______      ______ ______ &kp N0          ______        ______   ______        ______   ______ 
+            >;
+        };
+
+
+
         factory_test_layer {
             bindings = <
             &kp N0   &kp N6   &kp N2   &kp N8   &kp N4                                                                              &kp N4   &kp N8   &kp N2   &kp N6   &kp N0
