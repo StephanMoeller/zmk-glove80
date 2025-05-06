@@ -26,6 +26,7 @@
 #define DK_LT NON_US_BACKSLASH
 #define DK_GT LS(NON_US_BACKSLASH)
 #define DK_BACK RA(NON_US_BACKSLASH)
+#define &boot &bootloader
 
 
 #define LEFT_HAND_KEYS  \
@@ -168,8 +169,8 @@
            ______          ______   ______      &kp TAB     ______     ______                                                                     ______  ______     &kp ESC     ______          ______     ______
            ______          &kp Q    &lt FKEYS W &gui LGUI R &kp P      &kp B                                                                      &kp K   &kp L      &gui LGUI O &kp U           &kp BSLH   ______
            ______          &kp F    &lm LALT A  &lm LCTL S  &lm LSFT T &kp G                                                                      &kp M   &rm LSFT N &rm LCTL E  &rm LALT I      &kp Y      ______
-           ______          &kp Z    &kp X       &kp C       &kp D      &kp V   &bootloader       ______ ______ ______ ______ &bootloader          &kp J   &kp H      &kp COMMA   &lt WIN_NAV DOT &kp SLASH  ______
-           &magic MAGIC 0  ______   ______      ______      ______         &thumbs NUMBERS ENTER ______ ______ ______ ______ &thumbs ARROWS SPACE         ______     ______      ______          ______     ______
+           ______          &kp Z    &kp X       &kp C       &kp D      &kp V       ______        ______ ______    ______ ______ ______            &kp J   &kp H      &kp COMMA   &lt WIN_NAV DOT &kp SLASH  ______
+           &magic MAGIC 0  ______   ______      ______      ______         &thumbs NUMBERS ENTER ______ &boot     &boot  ______ &thumbs ARROWS SPACE      ______     ______      ______          ______     ______
             >;
         };
 
@@ -199,7 +200,7 @@
             bindings = <
             ______ ______  ______  ______       ______                                                                                            ______        ______   ______        ______   ______ 
             ______ ______  ______  ______       ______  ______                                                                             ______ ______        ______   ______        ______   ______      
-            ______ &kp TAB &kp TAB &kp TAB      &kp TAB ______                                                                             ______ ______        ______   ______        ______   ______
+            ______ &kp TAB &kp TAB &kp TAB      &kp TAB ______                                                                             ______ &kp TAB       &kp TAB  &kp TAB       &kp TAB  ______
             ______ &kp SPC &kp SPC &lm LCTL SPC &kp SPC &kp K_APP                                                                          ______ &rm LSFT BKSP &kp BKSP &rm LALT BKSP &kp BKSP ______
             ______ &kp ENT &kp ENT &kp ENT      &kp ENT ______      ______      ______      ______      ______      ______ ______          ______ &kp DEL       &kp DEL  &kp DEL       &kp DEL  ______
             ______ ______  ______  ______       ______              ______      ______      ______      ______      ______ ______ &kp N0          ______        ______   ______        ______   ______ 
