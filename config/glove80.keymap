@@ -213,7 +213,7 @@
             ______ ______      ______      ______      ______                                                                                            ______        ______        ______        ______   ______ 
             ______ ______      ______      ______      ______  ______                                                                             ______ ______        ______        ______        ______   ______      
             ______ ______ &kp F7      &kp F8      &kp F9      &kp F10                                                                       &kp DA_TILDE &kp TAB       &kp TAB       &kp TAB       &kp TAB  ______
-            ______ ______ &rm LSFT F4 &rm LCTL F5 &rm LALT F6 &kp F11                                                                         &kp DA_DLR &rm LSFT BKSP &rm LCTL BKSP &rm LALT BKSP &kp BKSP ______
+            ______ ______ &rm LALT F4 &rm LCTL F5 &rm LSFT F6 &kp F11                                                                         &kp DA_DLR &rm LSFT BKSP &rm LCTL BKSP &rm LALT BKSP &kp BKSP ______
             ______ ______ &kp F1      &kp F2      &kp F3      &kp F12      ______      ______      ______      ______      ______ ______      &kp DA_HAT &kp DEL       &kp DEL       &kp DEL       &kp DEL  ______
             ______ ______      ______      ______      ______              ______      ______      ______      ______      ______ ______ &kp N0          ______        ______        ______        ______   ______ 
             >;
