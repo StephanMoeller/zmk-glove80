@@ -124,6 +124,8 @@
         bt_1: bt_profile_macro_1 { label = "BT_1"; compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&out OUT_BLE>, <&bt BT_SEL 1>; };
         bt_2: bt_profile_macro_2 { label = "BT_2"; compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&out OUT_BLE>, <&bt BT_SEL 2>; };
         bt_3: bt_profile_macro_3 { label = "BT_3"; compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&out OUT_BLE>, <&bt BT_SEL 3>; };
+        tilde_macro: tilde_macro { compatible = "zmk,behavior-macro"; label = "TILDE_MACRO"; #binding-cells = <0>; bindings = <&kp DA_TILDE &kp SPACE>; };
+        hat_macro: tilde_macro { compatible = "zmk,behavior-macro"; label = "TILDE_MACRO"; #binding-cells = <0>; bindings = <&kp DA_HAT &kp SPACE>; };
     };
 
     keymap {
@@ -212,9 +214,9 @@
             bindings = <
             ______ ______      ______      ______      ______                                                                                            ______        ______        ______        ______   ______ 
             ______ ______      ______      ______      ______  ______                                                                             ______ ______        ______        ______        ______   ______      
-            ______ ______ &kp F7      &kp F8      &kp F9      &kp F10                                                                       &kp DA_TILDE &kp TAB       &kp TAB       &kp TAB       &kp TAB  ______
+            ______ ______ &kp F7      &kp F8      &kp F9      &kp F10                                                                       &tilde_macro &kp TAB       &kp TAB       &kp TAB       &kp TAB  ______
             ______ ______ &rm LALT F4 &rm LCTL F5 &rm LSFT F6 &kp F11                                                                         &kp DA_DLR &rm LSFT BKSP &rm LCTL BKSP &rm LALT BKSP &kp BKSP ______
-            ______ ______ &kp F1      &kp F2      &kp F3      &kp F12      ______      ______      ______      ______      ______ ______      &kp DA_HAT &kp DEL       &kp DEL       &kp DEL       &kp DEL  ______
+            ______ ______ &kp F1      &kp F2      &kp F3      &kp F12      ______      ______      ______      ______      ______ ______    &tilde_macro &kp DEL       &kp DEL       &kp DEL       &kp DEL  ______
             ______ ______      ______      ______      ______              ______      ______      ______      ______      ______ ______ &kp N0          ______        ______        ______        ______   ______ 
             >;
         };
