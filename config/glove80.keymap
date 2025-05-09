@@ -23,7 +23,8 @@
 #define NONE_LAYER 6
 #define BACKSPACE_LAYER 7 
 
-#define DA_TILDE LA(RBKT)
+#define DA_TILDE RBKT
+#define DA_DLR RA(N4)
 #define ______ &none
 #define FACTORY_TEST 3
 #define DK_LT NON_US_BACKSLASH
@@ -166,7 +167,7 @@
             ______ ______  ______  ______   ______                                                                                          ______      ______      ______      ______  ______
             ______ ______  ______  ______   ______   ______                                                                          ______ ______      ______      ______      ______  ______     
             ______ ______  ______  ______   ______   ______                                                                          ______ &kp F7      &kp F8      &kp F9      &kp F10 ______
-            ______ ______ &kp LALT &kp LCTL &kp LSFT ______                                                                     &kp RBKT &rm LSFT F4 &rm LCTL F5 &rm LALT F6 &kp F11 ______
+            ______ ______ &kp LALT &kp LCTL &kp LSFT ______                                                                          ______ &rm LSFT F4 &rm LCTL F5 &rm LALT F6 &kp F11 ______
             ______ ______  ______  ______   ______   ______      ______      ______      ______      ______    ______      ______    ______ &kp F1      &kp F2      &kp F3      &kp F12 ______
             ______ ______  ______  ______   ______               ______      ______      ______      ______    ______ &thumbs ARROWS N0     ______      ______      ______      ______  ______
             >;
@@ -210,8 +211,8 @@
             bindings = <
             ______ ______      ______      ______      ______                                                                                            ______        ______        ______        ______   ______ 
             ______ ______      ______      ______      ______  ______                                                                             ______ ______        ______        ______        ______   ______      
-            ______ ______ &kp F7      &kp F8      &kp F9      &kp F10                                                                             ______ &kp TAB       &kp TAB       &kp TAB       &kp TAB  ______
-            ______ ______ &rm LSFT F4 &rm LCTL F5 &rm LALT F6 &kp F11                                                                             ______ &rm LSFT BKSP &rm LCTL BKSP &rm LALT BKSP &kp BKSP ______
+            ______ ______ &kp F7      &kp F8      &kp F9      &kp F10                                                                       &kp DA_TILDE &kp TAB       &kp TAB       &kp TAB       &kp TAB  ______
+            ______ ______ &rm LSFT F4 &rm LCTL F5 &rm LALT F6 &kp F11                                                                         &kp DA_DLR &rm LSFT BKSP &rm LCTL BKSP &rm LALT BKSP &kp BKSP ______
             ______ ______ &kp F1      &kp F2      &kp F3      &kp F12      ______      ______      ______      ______      ______ ______          ______ &kp DEL       &kp DEL       &kp DEL       &kp DEL  ______
             ______ ______      ______      ______      ______              ______      ______      ______      ______      ______ ______ &kp N0          ______        ______        ______        ______   ______ 
             >;
