@@ -23,7 +23,7 @@
 #define NONE_LAYER 6
 #define BACKSPACE_LAYER 7 
 
-#define DA_HAT LA(RBKT)
+#define DA_HAT LS(RBKT)
 #define DA_TILDE RA(RBKT)
 #define DA_DLR LA(N4)
 #define ______ &none
