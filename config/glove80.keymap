@@ -25,7 +25,7 @@
 
 #define DA_HAT LA(RBKT)
 #define DA_TILDE RA(RBKT)
-#define DA_DLR RA(N4)
+#define DA_DLR LA(N4)
 #define ______ &none
 #define FACTORY_TEST 3
 #define DK_LT NON_US_BACKSLASH
