@@ -137,7 +137,7 @@
            &kp RBKT        ______ ______     ______      ______                                                                                        ______     ______      ______      ______          &kp RBKT
            ______          ______ ______     &kp Q       ______     ______                                                                     ______  ______     &kp BSLH    ______      ______          ______
            ______          ______ &kp W      &gui LGUI R &kp P      &kp B                                                                      &kp K   &kp L      &gui LGUI O &kp U       ______          ______
-           ______          &kp F  &lm LALT A &lm LCTL S  &lm LSFT T &kp G                                                                      &kp M   &rm LSFT N &rm LCTL E  &rm LALT I  &kp Y           ______
+           ______     &lm LSFT F  &lm LALT A &lm LCTL S  &lm LSFT T &kp G                                                                      &kp M   &rm LSFT N &rm LCTL E  &rm LALT I  &kp Y           ______
            ______          &kp Z  &kp X      &kp C       &kp D      &kp V    ______   ______ ______             ______      ______ ______         &kp J      &kp H       &kp COMMA   &lt WIN_NAV DOT &kp SLASH ______
            &magic MAGIC 0  ______ ______     ______      ______         &thumbs NUMBERS ENTER  ______ &bootloader  &bootloader ______ &thumbs ARROWS SPACE         ______      ______      ______          ______    ______
             >;
