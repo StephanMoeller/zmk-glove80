@@ -95,7 +95,7 @@ layers:
   - ''
   - ''
   - ''
-  - Sft+1
+  - '!'
   - ''
   - ''
   - ''
@@ -106,9 +106,9 @@ layers:
   - ''
   - ''
   - ''
-  - \
+  - <
   - Sft+0
-  - Sft+\
+  - '>'
   - Sft+5
   - Sft+7
   - HOME
@@ -117,11 +117,11 @@ layers:
   - ''
   - ''
   - ''
-  - AltGr+2
+  - '@'
   - {t: AltGr+7, h: LALT}
-  - {t: Sft+8, h: LCTL}
-  - {t: Sft+9, h: LSFT}
-  - AltGr+0
+  - {t: (, h: LCTL}
+  - {t: ), h: LSFT}
+  - '}'
   - PG UP
   - LEFT
   - DOWN
@@ -515,13 +515,13 @@ combos:
   k: /
   l: [default]
 - p: [24, 25]
-  k: \
+  k: <
   l: [arrows]
 - p: [30, 31]
   k: Sft+-
   l: [arrows]
 - p: [48, 49]
-  k: AltGr+\
+  k: AltGr+<
   l: [arrows]
 - p: [49, 50]
   k: Sft+6
@@ -534,4 +534,4 @@ combos:
   l: [arrows]
 - p: [38, 41]
   k: Alt+F4
-  l: [factory_test]
+  l: [spamming]
