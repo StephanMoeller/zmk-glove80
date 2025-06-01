@@ -110,7 +110,7 @@ layers:
   - '='
   - '>'
   - '%'
-  - Sft+7
+  - /
   - HOME
   - UP
   - END
@@ -142,7 +142,7 @@ layers:
   - ''
   - ''
   - TAB
-  - Sft+2
+  - '"'
   - ESC
   - ''
   - ''
@@ -514,9 +514,6 @@ combos:
 - p: [42, 43]
   k: '-'
   l: [default]
-- p: [30, 31]
-  k: '?'
-  l: [arrows]
 - p: [48, 49]
   k: \
   l: [arrows]
@@ -524,10 +521,10 @@ combos:
   k: '&'
   l: [arrows]
 - p: [59, 60]
-  k: AltGr+=
+  k: '|'
   l: [arrows]
 - p: [42, 43]
-  k: '-'
+  k: +
   l: [arrows]
 - p: [38, 41]
   k: Alt+F4
