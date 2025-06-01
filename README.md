@@ -35,3 +35,8 @@ To locate your firmware files and reflash your Glove80...
 6. Flash the firmware to Glove80 according to the user documentation on the official Glove80 Glove80 Support website (linked above)
 
 Your keyboard is now ready to use.
+
+# TODO:
+- remove unused layers
+- fix  combos on right hand side on arrow layer 
+
