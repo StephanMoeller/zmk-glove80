@@ -124,15 +124,7 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 
-svg.keymap { fill: #d1d6db; }
-rect.key { fill: #3f4750; }
-rect.key, rect.combo { stroke: #60666c; }
-rect.combo, rect.combo-separate { fill: #1f3d7a; }
-rect.held, rect.combo.held { fill: #854747; }
-text.label, text.footer { stroke: black; }
-text.trans { fill: #7e8184; }
-path.combo { stroke: #7f7f7f; }
-</style>
+svg keymap { background-color: #F00; }</style>
 <g transform="translate(30, 0)" class="layer-default">
 <text x="0" y="28" class="label" id="default">default:</text>
 <g transform="translate(0, 56)">
@@ -1292,6 +1284,12 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(980, 336)" class="key keypos-79">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
+<g class="combo combopos-0">
+<path d="M504,196 l-233,0" class="combo"/>
+<path d="M504,196 l233,0" class="combo"/>
+<rect rx="6" ry="6" x="490" y="183" width="28" height="26" class="combo"/>
+<text x="504" y="196" class="combo tap">Alt+F4</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 2085)" class="layer-magic">
@@ -2084,12 +2082,6 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(980, 336)" class="key keypos-79">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-</g>
-<g class="combo combopos-0">
-<path d="M504,196 l-233,0" class="combo"/>
-<path d="M504,196 l233,0" class="combo"/>
-<rect rx="6" ry="6" x="490" y="183" width="28" height="26" class="combo"/>
-<text x="504" y="196" class="combo tap">Alt+F4</text>
 </g>
 </g>
 </g>

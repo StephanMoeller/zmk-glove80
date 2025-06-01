@@ -526,4 +526,4 @@ combos:
   l: [arrows]
 - p: [38, 41]
   k: Alt+F4
-  l: [none]
+  l: [backspace]
