@@ -34,7 +34,7 @@
 #define DK_BACK RA(NON_US_BACKSLASH)
 #define DK_AMP LS(N6)
 #define DK_PIPE RA(EQUAL)
-
+#define DK_PLUS MINUS
 #define LEFT_HAND_KEYS  \
      0  1  2  3  4      \
     10 11 12 13 14 15   \
@@ -107,19 +107,25 @@
 
     combos {
         compatible = "zmk,combos";
+        // base layer combos
         combo_j { timeout-ms = <50>; key-positions = <24 25>; bindings = <&kp J>; layers = <0>;};
-        combo_v { timeout-ms = <50>; key-positions = <37 38>; bindings = <&kp V>;  layers = <0>;};
-        combo_q { timeout-ms = <50>; key-positions = <36 37>; bindings = <&kp V>;  layers = <0>;};
         combo_ae { timeout-ms = <50>; key-positions = <29 30>; bindings = <&kp SEMI>; layers = <0>; };
         combo_oe { timeout-ms = <50>; key-positions = <29 31>; bindings = <&kp SQT>;  layers = <0>; };
         combo_aa { timeout-ms = <50>; key-positions = <30 31>; bindings = <&kp LBKT>;  layers = <0>; };
+        combo_v { timeout-ms = <50>; key-positions = <37 38>; bindings = <&kp V>;  layers = <0>;};
+        combo_q { timeout-ms = <50>; key-positions = <36 37>; bindings = <&kp V>;  layers = <0>;};
         combo_dash { timeout-ms = <50>; key-positions = <42 43>; bindings = <&kp SLASH>; layers = <0>;};
-        combo_alt_f4 { timeout-ms = <50>; key-positions = <38 41>; bindings = <&kp LA(F4)>; layers = <7>;};
+        combo_z { timeout-ms = <50>; key-positions = <48 49>; bindings = <&kp DK_BACK>;layers = <0>; };
+
+        // arrow layer combos
         combo_lt { timeout-ms = <50>; key-positions = <24 25>; bindings = <&kp DK_LT>; layers = <1>; };
         combo_question { timeout-ms = <50>; key-positions = <30 31>; bindings = <&kp LS(MINUS)>; layers = <1>; };
+        combo_backslash { timeout-ms = <50>; key-positions = <48 49>; bindings = <&kp DK_BACK>;layers = <1>; };
+        combo_and_ampersand { timeout-ms = <50>; key-positions = <49 50>; bindings = <&kp DK_AMP>;layers = <1>; };
+        combo_or_pipe { timeout-ms = <50>; key-positions = <53 54>; bindings = <&kp DK_PIPE>;layers = <1>; };
+        combo_plus { timeout-ms = <50>; key-positions = <54 55>; bindings = <&kp DK_PLUS>;layers = <1>; };
 
-        combo_and_ampersand { timeout-ms = <50>; key-positions = <49 50>; bindings = <&kp DK_AMP>; };
-        combo_or_pipe { timeout-ms = <50>; key-positions = <53 54>; bindings = <&kp DK_PIPE>; };
+        combo_alt_f4 { timeout-ms = <50>; key-positions = <38 41>; bindings = <&kp LA(F4)>; layers = <7>;};
       };
 
     };
@@ -142,7 +148,7 @@
            &kp RBKT        ______ ______     ______      ______                                                                                        ______     ______      ______          ______ &kp RBKT
            ______          ______ ______     &kp Q       ______   ______                                                                      ______   ______     &kp BSLH    ______          ______ ______
            ______          ______ &kp W      &gui LGUI R &kp P      &kp B                                                                      &kp K   &kp L      &gui LGUI O &kp U           ______ ______
-           &kp Z           &kp F  &lm LALT A &lm LCTL S  &lm LSFT T &kp G                                                                      &kp M   &rm LSFT N &rm LCTL E  &rm LALT I      &kp Y  ______
+           ______          &kp F  &lm LALT A &lm LCTL S  &lm LSFT T &kp G                                                                      &kp M   &rm LSFT N &rm LCTL E  &rm LALT I      &kp Y  ______
            ______          ______ &kp X      &kp C       &kp D    ______    ______        ______ ______       ______      ______ ______       ______   &kp H      &kp COMMA   &lt WIN_NAV DOT ______ ______
            &magic MAGIC 0  ______ ______     ______      ______     &thumbs NUMBERS ENTER ______ &bootloader  &bootloader ______ &thumbs ARROWS SPACE  ______     ______      ______          ______ ______
             >;
@@ -154,7 +160,7 @@
             ______ ______      ______          ______          ______          ______                                                                                ______     ______     &kp LS(MINUS) ______       ______    ______
             ______ ______      &kp LS(N1)      &kp LS(N0)      &kp DK_GT       &kp LS(N5)                                                                            &kp LS(N7) &kp HOME   &kp UP       &kp END       ______    ______
             ______ &kp RA(N2)  &lm LALT RA(N7) &lm LCTL LS(N8) &lm LSFT LS(N9) &kp RA(N0)                                                                            &kp PG_UP  &kp LEFT   &kp DOWN     &kp RIGHT     &kp PG_DN ______
-            ______ &kp DK_BACK &kp LS(N3)      &kp RA(N8)      &kp RA(N9)      ______     ______            ______      ______      ______      ______    ______     ______     &kp TAB    &kp LS(N2)   &kp ESC       &kp MINUS ______
+            ______ ______      &kp LS(N3)      &kp RA(N8)      &kp RA(N9)      ______     ______            ______      ______      ______      ______    ______     ______     &kp TAB    &kp LS(N2)   &kp ESC       ______    ______
             ______ ______      ______          ______          ______                 &thumbs NUMBERS SPACE ______      ______      ______      ______    ______                ______     ______       ______        ______    ______
             >;
         };
