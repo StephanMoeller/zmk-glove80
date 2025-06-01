@@ -19,10 +19,10 @@ layers:
   - ''
   - ''
   - ''
-  - \
+  - ''''
   - ''
   - ''
-  - ''
+  - '&none.key'
   - ''
   - ''
   - W
@@ -100,16 +100,16 @@ layers:
   - ''
   - ''
   - ''
-  - Sft+-
+  - '?'
   - ''
   - ''
   - ''
   - ''
   - ''
   - <
-  - Sft+0
+  - '='
   - '>'
-  - Sft+5
+  - '%'
   - Sft+7
   - HOME
   - UP
@@ -118,7 +118,7 @@ layers:
   - ''
   - ''
   - '@'
-  - {t: AltGr+7, h: LALT}
+  - {t: '{', h: LALT}
   - {t: (, h: LCTL}
   - {t: ), h: LSFT}
   - '}'
@@ -130,9 +130,9 @@ layers:
   - ''
   - ''
   - ''
-  - Sft+3
-  - AltGr+8
-  - AltGr+9
+  - '#'
+  - '['
+  - ']'
   - ''
   - ''
   - ''
@@ -497,13 +497,13 @@ combos:
   k: J
   l: [default]
 - p: [29, 30]
-  k: ;
+  k: æ
   l: [default]
 - p: [29, 31]
-  k: ''''
+  k: ø
   l: [default]
 - p: [30, 31]
-  k: '['
+  k: å
   l: [default]
 - p: [37, 38]
   k: V
@@ -512,19 +512,16 @@ combos:
   k: Z
   l: [default]
 - p: [42, 43]
-  k: /
+  k: '-'
   l: [default]
-- p: [24, 25]
-  k: <
-  l: [arrows]
 - p: [30, 31]
-  k: Sft+-
+  k: '?'
   l: [arrows]
 - p: [48, 49]
-  k: AltGr+<
+  k: \
   l: [arrows]
 - p: [49, 50]
-  k: Sft+6
+  k: '&'
   l: [arrows]
 - p: [59, 60]
   k: AltGr+=
