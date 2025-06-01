@@ -502,6 +502,7 @@ combos:
 - p: [29, 31]
   k: ø
   l: [default]
+  a: top
 - p: [30, 31]
   k: å
   l: [default]
