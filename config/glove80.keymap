@@ -135,11 +135,11 @@
         default_layer {
             bindings = <
            &kp RBKT        ______ ______     ______      ______                                                                                        ______     ______      ______      ______        &kp RBKT
-           ______          ______ ______     ______      ______   ______                                                                     ______    ______     &kp BSLH    ______      ______        ______
-           ______          &kp Q  &kp W      &gui LGUI R &kp P      &kp B                                                                      &kp K   &kp L      &gui LGUI O &kp U       ______        ______
-           ______          &kp F  &lm LALT A &lm LCTL S  &lm LSFT T &kp G                                                                      &kp M   &rm LSFT N &rm LCTL E  &rm LALT I  &kp Y         ______
-           ______          &kp Z  &kp X      &kp C       &kp D      &kp V   ______        ______ ______       ______      ______ ______        &kp J   &kp H       &kp COMMA  &lt WIN_NAV DOT &kp SLASH ______
-           &magic MAGIC 0  ______ ______     ______      ______     &thumbs NUMBERS ENTER ______ &bootloader  &bootloader ______ &thumbs ARROWS SPACE  ______      ______      ______     ______        ______
+           ______          ______ ______     ______      ______   ______                                                                     ______    ______     ______      ______      ______        ______
+           ______          ______ &kp W      &gui LGUI R &kp P      &kp B                                                                      &kp K   &kp L      &gui LGUI O &kp U       ______        ______
+           &kp Q           &kp F  &lm LALT A &lm LCTL S  &lm LSFT T &kp G                                                                      &kp M   &rm LSFT N &rm LCTL E  &rm LALT I  &kp Y         ______
+           ______          &kp Z  &kp X      &kp C       &kp D      &kp V   ______        ______ ______       ______      ______ ______        &kp J   &kp H      &kp COMMA   &lt WIN_NAV DOT &kp SLASH ______
+           &magic MAGIC 0  ______ ______     ______      ______     &thumbs NUMBERS ENTER ______ &bootloader  &bootloader ______ &thumbs ARROWS SPACE  ______     ______      ______      ______        ______
             >;
         };
 
@@ -147,7 +147,7 @@
             bindings = <
             ______ ______      ______          ______          ______                                                                                                               ______     ______       ______        ______    ______
             ______ ______      ______          ______          ______          ______                                                                                ______         ______     ______       ______       ______    ______
-            ______ &kp DK_LT   &kp LS(N1)      &kp LS(N0)      &kp DK_GT       &kp LS(N5)                                                                            &kp LS(N7)     &kp HOME   &kp UP       &kp END       ______    ______
+            ______ ______      &kp LS(N1)      &kp LS(N0)      &kp DK_GT       &kp LS(N5)                                                                            &kp LS(N7)     &kp HOME   &kp UP       &kp END       ______    ______
             ______ &kp RA(N2)  &lm LALT RA(N7) &lm LCTL LS(N8) &lm LSFT LS(N9) &kp RA(N0)                                                                            &kp PG_UP      &kp LEFT   &kp DOWN     &kp RIGHT     &kp PG_DN ______
             ______ &kp DK_BACK &kp LS(N3)      &kp RA(N8)      &kp RA(N9)      &kp LS(N6) ______            ______      ______      ______      ______    ______     &kp RA(EQUAL)  &kp TAB    &kp LS(N2)   &kp ESC       &kp MINUS ______
             ______ ______      ______          ______          ______                 &thumbs NUMBERS SPACE ______      ______      ______      ______    ______                    ______     ______       ______        ______    ______
