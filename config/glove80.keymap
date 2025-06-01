@@ -123,7 +123,7 @@
         combo_backslash { timeout-ms = <50>; key-positions = <48 49>; bindings = <&kp DK_BACK>; layers = <1>; };
         combo_and_ampersand { timeout-ms = <50>; key-positions = <49 50>; bindings = <&kp DK_AMP>;layers = <1>; };
         combo_or_pipe { timeout-ms = <50>; key-positions = <59 60>; bindings = <&kp DK_PIPE>; layers = <1>; };
-        combo_plus { timeout-ms = <50>; key-positions = <60 61>; bindings = <&kp DK_PLUS>; layers = <1>; };
+        combo_plus { timeout-ms = <50>; key-positions = <42 43>; bindings = <&kp DK_PLUS>; layers = <1>; };
 
         combo_alt_f4 { timeout-ms = <50>; key-positions = <38 41>; bindings = <&kp LA(F4)>; layers = <7>;};
       };
