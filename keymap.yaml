@@ -284,7 +284,7 @@ layers:
   - {t: F5, h: LCTL}
   - {t: F6, h: LSFT}
   - F11
-  - AltGr+4
+  - $
   - {t: BKSP, h: LSFT}
   - {t: BKSP, h: LCTL}
   - {t: BKSP, h: LALT}
@@ -302,11 +302,11 @@ layers:
   - ''
   - ''
   - ''
-  - '&hat_macro'
+  - ^
   - DEL
   - DEL
   - DEL
-  - DEL
+  - ''
   - ''
   - ''
   - ''
