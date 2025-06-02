@@ -65,15 +65,15 @@ layers:
   - {t: ., h: win_nav}
   - ''
   - ''
-  - {t: '&rgb_ug_status_macro', h: magic}
+  - {h: magic}
   - ''
   - ''
   - ''
   - ''
   - {t: ENTER, h: numbers}
   - ''
-  - '&bootloader'
-  - '&bootloader'
+  - ''
+  - ''
   - ''
   - {t: SPACE, h: arrows}
   - ''
@@ -359,7 +359,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&bootloader'
+  - ''
   - RGB SPD
   - RGB SAD
   - RGB HUD
@@ -370,7 +370,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&bootloader'
+  - ''
   - '&sys_reset'
   - ''
   - ''
