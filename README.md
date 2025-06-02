@@ -1,5 +1,5 @@
 TODO:
-- Move 0 to pinky
+
 - Move F keys away from double-layer
 - Move numbers to double-layer
 - Change left hold to shift
