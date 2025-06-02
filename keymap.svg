@@ -124,7 +124,7 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 
-svg.keymap { background-color: #777; }</style>
+svg.keymap { background-color: #222; }</style>
 <g transform="translate(30, 0)" class="layer-default">
 <text x="0" y="28" class="label" id="default">default:</text>
 <g transform="translate(0, 56)">
