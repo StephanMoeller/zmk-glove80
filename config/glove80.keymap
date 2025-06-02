@@ -116,6 +116,7 @@
         combo_dash { timeout-ms = <50>; key-positions = <42 43>; bindings = <&kp SLASH>; layers = <0>;};
 
         // arrow layer combos
+        combo_app { timeout-ms = <50>; key-positions = <37 38>; bindings = <&kp K_APP>;  layers = <1>;};
         combo_backslash { timeout-ms = <50>; key-positions = <48 49>; bindings = <&kp DK_BACK>; layers = <1>; };
         combo_and_ampersand { timeout-ms = <50>; key-positions = <49 50>; bindings = <&kp DK_AMP>;layers = <1>; };
         combo_or_pipe { timeout-ms = <50>; key-positions = <59 60>; bindings = <&kp DK_PIPE>; layers = <1>; };
@@ -166,7 +167,7 @@
             ______ ______ ______   ______   ______                                                                                         ______ ______ ______ ______ ______ 
             ______ ______ ______   ______   ______   ______                                                                         ______ ______ ______ ______ ______ ______      
             ______ ______ ______   &kp LGUI ______   ______                                                                         ______ &kp N7 &kp N8 &kp N9 ______ ______      
-            ______ ______ &kp LALT &kp LCTL &kp LSFT &kp K_APP                                                                      ______ &kp N4 &kp N5 &kp N6 ______ ______      
+            ______ ______ &kp LALT &kp LCTL &kp LSFT ______                                                                         ______ &kp N4 &kp N5 &kp N6 ______ ______      
             ______ ______ &kp ESC  ______   &kp DEL  ______     ______      ______      ______      ______    ______      ______    ______ &kp N1 &kp N2 &kp N3 ______ ______      
             ______ ______ ______   ______   ______              ______      ______      ______      ______    ______ &thumbs ARROWS N0  ______ ______ ______ ______ ______ 
             >;
