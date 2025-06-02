@@ -272,11 +272,11 @@ layers:
   - F8
   - F9
   - F10
-  - '&tilde_macro'
+  - '~'
   - TAB
   - TAB
   - TAB
-  - TAB
+  - ''
   - ''
   - ''
   - ''
@@ -288,7 +288,7 @@ layers:
   - {t: BKSP, h: LSFT}
   - {t: BKSP, h: LCTL}
   - {t: BKSP, h: LALT}
-  - BKSP
+  - ''
   - ''
   - ''
   - ''

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020 The ZMK Contributors
+ * Copyright (c) 2020 The ZMK Contributors.key
  *
  * SPDX-License-Identifier: MIT
  */
@@ -176,8 +176,8 @@
             bindings = <
             ______ ______ ______      ______      ______                                                                                                       ______        ______        ______        ______   ______ 
             ______ ______ ______      &kp F12     ______      ______                                                                             ______        ______        ______        ______        ______   ______      
-            ______ ______ &kp F7      &kp F8      &kp F9      &kp F10                                                                       &tilde_macro &kp TAB       &kp TAB       &kp TAB       &kp TAB  ______
-            ______ ______ &rm LALT F4 &rm LCTL F5 &rm LSFT F6 &kp F11                                                                         &kp DA_DLR &rm LSFT BKSP &rm LCTL BKSP &rm LALT BKSP &kp BKSP ______
+            ______ ______ &kp F7      &kp F8      &kp F9      &kp F10                                                                       &tilde_macro &kp TAB       &kp TAB       &kp TAB       ______  ______
+            ______ ______ &rm LALT F4 &rm LCTL F5 &rm LSFT F6 &kp F11                                                                         &kp DA_DLR &rm LSFT BKSP &rm LCTL BKSP &rm LALT BKSP ______ ______
             ______ ______ &kp F1      &kp F2      &kp F3      ______      ______  ______ ______      ______ ______ ______    &hat_macro &kp DEL       &kp DEL       &kp DEL       &kp DEL  ______
             ______ ______ ______      ______      ______                  ______  ______ ______      ______ ______ ______              ______        ______        ______        ______   ______ 
             >;
