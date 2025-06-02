@@ -65,7 +65,7 @@ layers:
   - {t: ., h: win_nav}
   - ''
   - ''
-  - {h: magic}
+  - ''
   - ''
   - ''
   - ''
@@ -202,7 +202,7 @@ layers:
   - LALT
   - LCTL
   - LSFT
-  - APP
+  - ''
   - ''
   - '4'
   - '5'
@@ -389,7 +389,7 @@ layers:
   - ''
   - ''
   - '&sys_reset'
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
@@ -512,6 +512,9 @@ combos:
 - p: [42, 43]
   k: '-'
   l: [default]
+- p: [37, 38]
+  k: APP
+  l: [arrows]
 - p: [48, 49]
   k: \
   l: [arrows]
