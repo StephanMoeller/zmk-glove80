@@ -146,7 +146,7 @@
            ______          ______ &kp W      &gui LGUI R &kp P        &kp B                                                                      &kp K     &kp L      &gui LGUI O &kp U           &kp BSLH ______
            ______          &kp F  &lm LALT A &lm LCTL S  &lm LSFT T          &kp G                                                               &kp M     &rm LSFT N &rm LCTL E  &rm LALT I      &kp Y    ______
            ______          ______ &kp X      &kp C      &lt NUMBERS D ______               ______ ______      ______      ______ ______  ______  ______    &kp H      &kp COMMA   &lt WIN_NAV DOT ______   ______
-           &magic MAGIC 0  ______ ______     ______     ______        &thumbs LEFT_HOLD ENTER ______ &bootloader &bootloader ______ &thumbs RIGHT_HOLD SPACE ______   ______      ______          ______   ______
+           &magic MAGIC 0  ______ ______     ______     ______        &mo LEFT_HOLD        ______ &bootloader &bootloader ______ &thumbs RIGHT_HOLD SPACE ______   ______      ______          ______   ______
             >;
         };
 
