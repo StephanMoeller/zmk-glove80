@@ -143,12 +143,12 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-           &kp RBKT        ______ ______     ______      ______                                                                                        ______     ______      ______          ______ &kp RBKT
-           ______          ______ ______     ______      ______   ______                                                                      ______   ______     &kp BSLH    ______          ______ ______
-           ______          ______ &kp W      &gui LGUI R &kp P      &kp B                                                                      &kp K   &kp L      &gui LGUI O &kp U           ______ ______
-           ______          &kp F  &lm LALT A &lm LCTL S  &lm LSFT T &kp G                                                                      &kp M   &rm LSFT N &rm LCTL E  &rm LALT I      &kp Y  ______
-           ______          ______ &kp X      &kp C       &kp D    ______    ______        ______ ______       ______      ______ ______       ______   &kp H      &kp COMMA   &lt WIN_NAV DOT ______ ______
-           &magic MAGIC 0  ______ ______     ______      ______     &thumbs NUMBERS ENTER ______ &bootloader  &bootloader ______ &thumbs ARROWS SPACE  ______     ______      ______          ______ ______
+           &kp RBKT        ______ ______     ______      ______                                                                                        ______     ______      ______          ______   &kp RBKT
+           ______          ______ ______     ______      ______   ______                                                                      ______   ______     ______      ______          ______   ______
+           ______          ______ &kp W      &gui LGUI R &kp P      &kp B                                                                      &kp K   &kp L      &gui LGUI O &kp U           &kp BSLH ______
+           ______          &kp F  &lm LALT A &lm LCTL S  &lm LSFT T &kp G                                                                      &kp M   &rm LSFT N &rm LCTL E  &rm LALT I      &kp Y    ______
+           ______          ______ &kp X      &kp C       &kp D    ______    ______        ______ ______       ______      ______ ______       ______   &kp H      &kp COMMA   &lt WIN_NAV DOT ______   ______
+           &magic MAGIC 0  ______ ______     ______      ______     &thumbs NUMBERS ENTER ______ &bootloader  &bootloader ______ &thumbs ARROWS SPACE  ______     ______      ______          ______   ______
             >;
         };
 
