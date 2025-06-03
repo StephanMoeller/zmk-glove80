@@ -144,23 +144,23 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-           &kp RBKT        ______        ______     ______          ______                                                                                              ______     ______                     ______   ______   &kp RBKT
-           ______          ______        ______     &gui LGUI ENTER ______     ______                                                                        ______    ______     &gui LGUI ENTER            ______   ______   ______
-           ______          &kp Q         &kp W      &lt NUMBERS R   &kp P      &kp B                                                                         &kp K     &kp L      &kp O      &kp U           &kp BSLH ______
-           ______          &lt NUMBERS F &lm LALT A &lm LCTL S      &lm LSFT T &kp G                                                                         &kp M     &rm LSFT N &rm LCTL E &rm LALT I      &kp Y    ______
-           ______          ______        &kp X      &kp C           &kp D      ______        ______ ______      ______      ______ ______  ______            ______    &kp H      &kp COMMA  &lt WIN_NAV DOT ______   ______
-           &magic MAGIC 0  ______        ______     ______          ______     &mo LEFT_HOLD ______ &bootloader &bootloader ______ &thumbs RIGHT_HOLD SPACE            ______     ______     ______          ______   ______
+           &kp RBKT        ______        ______     ______      ______                                                                                             ______     ______      ______          ______   &kp RBKT
+           ______          ______        ______     &lt ENTER   ______     ______                                                                        ______    ______     &kp ENTER   ______          ______   ______
+           ______          &kp Q         &kp W      &gui LGUI R &kp P      &kp B                                                                         &kp K     &kp L      &gui LGUI O &kp U           &kp BSLH ______
+           ______          &lt NUMBERS F &lm LALT A &lm LCTL S  &lm LSFT T &kp G                                                                         &kp M     &rm LSFT N &rm LCTL E  &rm LALT I      &kp Y    ______
+           ______          ______        &kp X      &kp C       &kp D      ______        ______ ______      ______      ______ ______  ______            ______    &kp H      &kp COMMA   &lt WIN_NAV DOT ______   ______
+           &magic MAGIC 0  ______        ______     ______      ______     &mo LEFT_HOLD ______ &bootloader &bootloader ______ &thumbs RIGHT_HOLD SPACE            ______     ______      ______          ______   ______
             >;
         };
 
         right_hold {
             bindings = <
             ______ ______      ______          ______          ______                                                                                                           ______     ______       ______        ______    ______
-            ______ ______      ______          &kp ENTER      ______          ______                                                                                ______     ______     &kp ENTER    ______       ______    ______
+            ______ ______      ______          &kp ENTER       ______          ______                                                                                ______     ______     &kp ENTER    ______       ______    ______
             ______ ______      &kp DK_LT       &kp LS(N0)      &kp DK_GT       &kp LS(N5)                                                                            &kp LS(N7) &kp HOME   &kp UP       &kp END       ______    ______
             ______ &kp RA(N2)  &lm LALT RA(N7) &lm LCTL LS(N8) &lm LSFT LS(N9) &kp RA(N0)                                                                            &kp PG_UP  &kp LEFT   &kp DOWN     &kp RIGHT     &kp PG_DN ______
-           ______ ______      &kp LS(N3)      &kp RA(N8)      &kp RA(N9)      ______     ______            ______      ______      ______      ______    ______     ______     &kp TAB    &kp LS(N2)   &kp ESC       ______    ______
-            ______ ______      ______          ______          ______              &thumbs LEFT_HOLD SPACE ______      ______      ______      ______    ______                ______     ______       ______        ______    ______
+           ______ ______      &kp LS(N3)      &kp RA(N8)       &kp RA(N9)      ______     ______            ______      ______      ______      ______    ______     ______     &kp TAB    &kp LS(N2)   &kp ESC       ______    ______
+            ______ ______      ______          ______          ______             &thumbs LEFT_HOLD SPACE   ______      ______      ______      ______    ______                ______     ______       ______        ______    ______
             >;
         };
 
