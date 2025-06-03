@@ -24,7 +24,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Q
   - W
   - {t: R, h: numbers}
   - P
@@ -584,17 +584,11 @@ combos:
 - p: [37, 38]
   k: V
   l: [default]
-- p: [41, 42]
-  k: Q
-  l: [default]
 - p: [36, 37]
   k: Z
   l: [default]
 - p: [42, 43]
   k: '-'
-  l: [default]
-- p: [36, 38]
-  k: numbers
   l: [default]
 - p: [24, 25]
   k: '!'
