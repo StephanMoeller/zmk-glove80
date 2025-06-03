@@ -115,7 +115,6 @@
         combo_q { timeout-ms = <50>; key-positions = <41 42>; bindings = <&kp Q>; layers = <0>; };
         combo_z { timeout-ms = <50>; key-positions = <36 37>; bindings = <&kp Z>;  layers = <0>;};
         combo_dash { timeout-ms = <50>; key-positions = <42 43>; bindings = <&kp SLASH>; layers = <0>;};
-        combo_number_hold { timeout-ms = <50>; key-positions = <36 38>; bindings = <&mo NUMBERS>;  layers = <0>;};
         // arrow layer combos
 
         combo_exclamation { timeout-ms = <50>; key-positions = <24 25>; bindings = <&kp LS(N1)>; layers = <1>;};
