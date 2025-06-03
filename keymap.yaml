@@ -14,7 +14,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&lt ENTER'
+  - ENTER
   - ''
   - ''
   - ''
@@ -36,7 +36,7 @@ layers:
   - ''''
   - ''
   - ''
-  - {t: F, h: numbers}
+  - F
   - {t: A, h: LALT}
   - {t: S, h: LCTL}
   - {t: T, h: LSFT}
@@ -49,7 +49,7 @@ layers:
   - ''
   - ''
   - ''
-  - X
+  - {t: X, h: numbers}
   - C
   - D
   - ''
@@ -522,7 +522,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - LCTL
   - LCTL
@@ -535,7 +535,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -585,6 +585,9 @@ combos:
   k: V
   l: [default]
 - p: [36, 37]
+  k: F
+  l: [default]
+- p: [48, 37]
   k: Z
   l: [default]
 - p: [42, 43]
