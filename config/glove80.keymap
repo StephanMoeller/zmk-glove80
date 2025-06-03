@@ -122,6 +122,7 @@
         combo_and_ampersand { timeout-ms = <50>; key-positions = <49 50>; bindings = <&kp DK_AMP>;layers = <1>; };
         combo_or_pipe { timeout-ms = <50>; key-positions = <59 60>; bindings = <&kp DK_PIPE>; layers = <1>; };
         combo_plus { timeout-ms = <50>; key-positions = <42 43>; bindings = <&kp DK_PLUS>; layers = <1>; };
+        combo_numbers_switch { timeout-ms = <50>; key-positions = <36 38>; bindings = <&mo NUMBERS>; layers = <1>; };
 
         combo_alt_f4 { timeout-ms = <50>; key-positions = <38 41>; bindings = <&kp LA(F4)>; layers = <3>;};
       };
@@ -144,7 +145,7 @@
         default_layer {
             bindings = <
            &kp RBKT        ______ ______     ______      ______                                                                                        ______     ______      ______          ______   &kp RBKT
-           ______          ______ ______     ______      ______   ______                                                                      ______   ______     ______      ______          ______   ______
+           ______          ______ ______     &kp ESC     ______   ______                                                                      ______   ______     &kp ENTER   ______          ______   ______
            ______          ______ &kp W      &gui LGUI R &kp P      &kp B                                                                      &kp K   &kp L      &gui LGUI O &kp U           &kp BSLH ______
            ______          &kp F  &lm LALT A &lm LCTL S  &lm LSFT T &kp G                                                                      &kp M   &rm LSFT N &rm LCTL E  &rm LALT I      &kp Y    ______
            ______          ______ &kp X      &kp C       &kp D    ______    ______        ______ ______       ______      ______ ______       ______   &kp H      &kp COMMA   &lt WIN_NAV DOT ______   ______
