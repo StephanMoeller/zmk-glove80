@@ -142,12 +142,12 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-           &kp RBKT        ______         ______     ______     ______                                                                                   ______    ______     ______      ______          &kp RBKT
+           &kp RBKT        ______         ______     ______     ______                                                                                             ______     ______      ______          ______ &kp RBKT
            ______          ______         ______     &kp Q      ______        ______                                                                     ______    ______     &kp BSLH    ______          ______ ______
            ______          ______         &kp W      &gui LGUI R &kp P        &kp B                                                                      &kp K     &kp L      &gui LGUI O &kp U           ______ ______
            ______          &kp  F  &lm LALT A &lm LCTL S  &lm LSFT T          &kp G                                                                      &kp M     &rm LSFT N &rm LCTL E  &rm LALT I      &kp Y  ______
            ______          ______         &kp X      &kp C      &lt NUMBERS D ______               ______ ______      ______      ______ ______  ______  ______    &kp H      &kp COMMA   &lt WIN_NAV DOT ______ ______
-           &magic MAGIC 0  ______         ______     ______     ______        &lt LEFT_LAYER ENTER ______ &bootloader &bootloader ______ &thumbs RIGHT_LAYER SPACE ______     ______      ______          ______ ______
+           &magic MAGIC 0  ______         ______     ______     ______        &thumbs LEFT_HOLD ENTER ______ &bootloader &bootloader ______ &thumbs RIGHT_HOLD SPACE ______ ______      ______          ______ ______
             >;
         };
 
@@ -158,7 +158,7 @@
             ______ ______      &kp DK_LT       &kp LS(N0)      &kp DK_GT       &kp LS(N5)                                                                            &kp LS(N7) &kp HOME   &kp UP       &kp END       ______    ______
             ______ &kp RA(N2)  &lm LALT RA(N7) &lm LCTL LS(N8) &lm LSFT LS(N9) &kp RA(N0)                                                                            &kp PG_UP  &kp LEFT   &kp DOWN     &kp RIGHT     &kp PG_DN ______
             ______ ______      &kp LS(N3)      &kp RA(N8)      &kp RA(N9)      ______     ______            ______      ______      ______      ______    ______     ______     &kp TAB    &kp LS(N2)   &kp ESC       ______    ______
-            ______ ______      ______          ______          ______              &thumbs LEFT_LAYER SPACE ______      ______      ______      ______    ______                ______     ______       ______        ______    ______
+            ______ ______      ______          ______          ______              &thumbs LEFT_HOLD SPACE ______      ______      ______      ______    ______                ______     ______       ______        ______    ______
             >;
         };
 
@@ -169,7 +169,7 @@
             ______ ______ ______   &kp LGUI ______   ______                                                                         ______ ______ ______ ______ ______ ______      
             ______ ______ &kp LALT &kp LCTL &kp LSFT ______                                                                         ______ ______ ______ ______ ______ ______      
             ______ ______ &kp ESC  ______   &kp DEL  ______     ______      ______      ______      ______    ______      ______    ______ ______ ______ ______ ______ ______      
-            ______ ______ ______   ______   ______              ______      ______      ______      ______   ______ &mo RIGHT_LAYER ______ ______ ______ ______ ______ 
+            ______ ______ ______   ______   ______              ______      ______      ______      ______   ______ &mo RIGHT_HOLD ______ ______ ______ ______ ______ 
             >;
         };
 
