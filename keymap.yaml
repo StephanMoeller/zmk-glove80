@@ -14,7 +14,7 @@ layers:
   - ''
   - ''
   - ''
-  - ENTER
+  - '&lt ENTER'
   - ''
   - ''
   - ''
@@ -26,17 +26,17 @@ layers:
   - ''
   - Q
   - W
-  - {t: R, h: numbers}
+  - {t: R, h: LGUI}
   - P
   - B
   - K
   - L
-  - O
+  - {t: O, h: LGUI}
   - U
   - ''''
   - ''
   - ''
-  - F
+  - {t: F, h: numbers}
   - {t: A, h: LALT}
   - {t: S, h: LCTL}
   - {t: T, h: LSFT}
@@ -51,7 +51,7 @@ layers:
   - ''
   - X
   - C
-  - {t: D, h: LGUI}
+  - D
   - ''
   - ''
   - ''
@@ -60,7 +60,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: H, h: LGUI}
+  - H
   - ','
   - {t: ., h: win_nav}
   - ''
@@ -512,7 +512,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
@@ -522,7 +522,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - LCTL
   - LCTL
