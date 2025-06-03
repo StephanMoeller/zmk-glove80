@@ -116,6 +116,9 @@
         combo_dash { timeout-ms = <50>; key-positions = <42 43>; bindings = <&kp SLASH>; layers = <0>;};
         combo_number_hold { timeout-ms = <50>; key-positions = <36 38>; bindings = <&mo NUMBERS>;  layers = <0>;};
         // arrow layer combos
+
+        combo_exclamation { timeout-ms = <50>; key-positions = <24 25>; bindings = <&kp LS(N1)>; layers = <1>;};
+        combo_question { timeout-ms = <50>; key-positions = <30 31>; bindings = <&kp LS(MINUS)>;  layers = <1>; };
         combo_backslash { timeout-ms = <50>; key-positions = <48 49>; bindings = <&kp DK_BACK>; layers = <1>; };
         combo_and_ampersand { timeout-ms = <50>; key-positions = <37 38>; bindings = <&kp DK_AMP>;layers = <1>; };
         combo_or_pipe { timeout-ms = <50>; key-positions = <41 42>; bindings = <&kp DK_PIPE>; layers = <1>; };
@@ -153,7 +156,7 @@
         right_hold {
             bindings = <
             ______ ______      ______          ______          ______                                                                                                           ______     ______       ______        ______    ______
-            ______ ______      ______          &kp LS(N1)      ______          ______                                                                                ______     ______     &kp LS(MINUS) ______       ______    ______
+            ______ ______      ______          &kp LS(N1)      ______          ______                                                                                ______     ______     &kp ENTER    ______       ______    ______
             ______ ______      &kp DK_LT       &kp LS(N0)      &kp DK_GT       &kp LS(N5)                                                                            &kp LS(N7) &kp HOME   &kp UP       &kp END       ______    ______
             ______ &kp RA(N2)  &lm LALT RA(N7) &lm LCTL LS(N8) &lm LSFT LS(N9) &kp RA(N0)                                                                            &kp PG_UP  &kp LEFT   &kp DOWN     &kp RIGHT     &kp PG_DN ______
             ______ ______      &kp LS(N3)      &kp RA(N8)      &kp RA(N9)      ______     ______            ______      ______      ______      ______    ______     ______     &kp TAB    &kp LS(N2)   &kp ESC       ______    ______
@@ -163,11 +166,11 @@
 
         left_hold {
             bindings = <
-            ______ ______ ______   ______   ______                                                                                         ______ ______ ______ ______ ______ 
-            ______ ______ ______   ______   ______    ______                                                                           ______ ______ ______ ______ ______ ______      
-            ______ ______ ______   &kp LGUI &kp K_APP ______                                                                           ______ ______ ______ ______ ______ ______      
-            ______ ______ &kp LALT &kp LCTL &kp LSFT  ______                                                                           ______ ______ ______ ______ ______ ______      
-            ______ ______ &kp ESC  ______   &kp DEL   ______     ______      ______      ______      ______    ______      ______      ______ ______ ______ ______ ______ ______      
+            ______ ______ ______   ______   ______                                                                                            ______ ______    ______ ______ ______ 
+            ______ ______ ______   ______   ______    ______                                                                           ______ ______ &kp ENTER ______ ______ ______      
+            ______ ______ ______   &kp LGUI &kp K_APP ______                                                                           ______ ______ ______    ______ ______ ______      
+            ______ ______ &kp LALT &kp LCTL &kp LSFT  ______                                                                           ______ ______ ______    ______ ______ ______      
+            ______ ______ &kp ESC  ______   &kp DEL   ______     ______      ______      ______      ______    ______      ______      ______ ______ ______    ______ ______ ______      
             ______ ______ ______   ______   ______              ______      ______      ______      ______   ______ &mo RIGHT_HOLD  ______ ______ ______ ______ ______ 
             >;
         };
@@ -176,7 +179,7 @@
             bindings = <
             ______ ______ ______      ______      ______                                                                                                       ______        ______        ______        ______   ______ 
             ______ ______ ______      &kp F12     ______      ______                                                                             ______        ______        ______        ______        ______   ______      
-            ______ ______ &kp F7      &kp F8      &kp F9      &kp F10                                                                       &tilde_macro &kp TAB       &kp TAB       &kp TAB       ______  ______
+            ______ ______ &kp F7      &kp F8      &kp F9      &kp F10                                                                       &tilde_macro &kp SPACE       &kp SPACE       &kp SPACE       ______  ______
             ______ ______ &rm LALT F4 &rm LCTL F5 &rm LSFT F6 &kp F11                                                                         &kp DA_DLR &rm LSFT BKSP &rm LCTL BKSP &rm LALT BKSP ______ ______
             ______ ______ &kp F1      &kp F2      &kp F3      ______      ______  ______ ______      ______ ______ ______    &hat_macro &kp DEL       &kp DEL       &kp DEL       ______  ______
             ______ ______ ______      ______      ______                  ______  ______ ______      ______ ______ ______              ______        ______        ______        ______   ______ 
