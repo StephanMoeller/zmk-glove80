@@ -15,12 +15,12 @@
 
 // layers
 #define DEFAULT 0
-#define ARROWS 1
-#define NUMBERS 2
-#define BACKSPACE_LAYER 3 
+#define RIGHT_HOLD 1
+#define LEFT_HOLD 2
+#define BOTH_HOLD 3 
 #define MAGIC 4
 #define WIN_NAV 5
-#define NONE_LAYER 6
+#define NUMBERS 6
 
 #define DA_HAT LS(RBKT)
 #define DA_TILDE RA(RBKT)
@@ -107,13 +107,12 @@
     combos {
         compatible = "zmk,combos";
         // base layer combos
-        combo_q { timeout-ms = <50>; key-positions = <24 25>; bindings = <&kp Q>; layers = <0>;};
+        combo_j { timeout-ms = <50>; key-positions = <24 25>; bindings = <&kp J>; layers = <0>;};
         combo_ae { timeout-ms = <50>; key-positions = <29 30>; bindings = <&kp SEMI>; layers = <0>; };
         combo_oe { timeout-ms = <50>; key-positions = <29 31>; bindings = <&kp SQT>;  layers = <0>; };
         combo_aa { timeout-ms = <50>; key-positions = <30 31>; bindings = <&kp LBKT>;  layers = <0>; };
         combo_v { timeout-ms = <50>; key-positions = <37 38>; bindings = <&kp V>;  layers = <0>;};
         combo_z { timeout-ms = <50>; key-positions = <36 37>; bindings = <&kp Z>;  layers = <0>;};
-        combo_j { timeout-ms = <50>; key-positions = <41 42>; bindings = <&kp J>; layers = <0>;};
         combo_dash { timeout-ms = <50>; key-positions = <42 43>; bindings = <&kp SLASH>; layers = <0>;};
 
         // arrow layer combos
@@ -143,16 +142,16 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-           &kp RBKT        ______         ______     ______      ______                                                                                        ______     ______      ______          ______   &kp RBKT
-           ______          ______         ______     &kp ESC     ______   ______                                                                      ______   ______     &kp ENTER   ______          ______   ______
-           ______          ______         &kp W      &gui LGUI R &kp P      &kp B                                                                      &kp K   &kp L      &gui LGUI O &kp U           &kp BSLH ______
-           ______          &lt NUMBERS F  &lm LALT A &lm LCTL S  &lm LSFT T &kp G                                                                      &kp M   &rm LSFT N &rm LCTL E  &rm LALT I      &kp Y    ______
-           ______          ______         &kp X      &kp C       &kp D    ______    ______        ______ ______       ______      ______ ______       ______   &kp H      &kp COMMA   &lt WIN_NAV DOT ______   ______
-           &magic MAGIC 0  ______         ______     ______      ______     &lt NONE_LAYER ENTER ______ &bootloader  &bootloader ______ &thumbs ARROWS SPACE  ______     ______      ______          ______   ______
+           &kp RBKT        ______         ______     ______      ______                                                                                        ______     ______      ______          ______ &kp RBKT
+           ______          ______         ______     &kp Q      ______   ______                                                                       ______   ______     &kp BSLH    ______          ______ ______
+           ______          ______         &kp W      &gui LGUI R &kp P      &kp B                                                                      &kp K   &kp L      &gui LGUI O &kp U           ______ ______
+           ______          &lt NUMBERS F  &lm LALT A &lm LCTL S  &lm LSFT T &kp G                                                                      &kp M   &rm LSFT N &rm LCTL E  &rm LALT I      &kp Y  ______
+           ______          ______         &kp X      &kp C       &kp D    ______    ______        ______ ______       ______      ______ ______       ______   &kp H      &kp COMMA   &lt WIN_NAV DOT ______ ______
+           &magic MAGIC 0  ______         ______     ______      ______     &lt NONE_LAYER ENTER ______ &bootloader  &bootloader ______ &thumbs ARROWS SPACE   ______     ______      ______          ______ ______
             >;
         };
 
-        arrows {
+        right_hold {
             bindings = <
             ______ ______      ______          ______          ______                                                                                                           ______     ______       ______        ______    ______
             ______ ______      ______          &kp LS(N1)      ______          ______                                                                                ______     ______     &kp LS(MINUS) ______       ______    ______
@@ -163,18 +162,18 @@
             >;
         };
 
-        numbers {
+        left_hold {
             bindings = <
             ______ ______ ______   ______   ______                                                                                         ______ ______ ______ ______ ______ 
             ______ ______ ______   ______   ______   ______                                                                         ______ ______ ______ ______ ______ ______      
-            ______ ______ ______   &kp LGUI ______   ______                                                                         ______ &kp N7 &kp N8 &kp N9 ______ ______      
-            ______ ______ &kp LALT &kp LCTL &kp LSFT ______                                                                         ______ &kp N4 &kp N5 &kp N6 ______ ______      
-            ______ ______ &kp ESC  ______   &kp DEL  ______     ______      ______      ______      ______    ______      ______    ______ &kp N1 &kp N2 &kp N3 ______ ______      
-            ______ ______ ______   ______   ______              ______      ______      ______      ______    ______ &thumbs ARROWS N0  ______ ______ ______ ______ ______ 
+            ______ ______ ______   &kp LGUI ______   ______                                                                         ______ ______ ______ ______ ______ ______      
+            ______ ______ &kp LALT &kp LCTL &kp LSFT ______                                                                         ______ ______ ______ ______ ______ ______      
+            ______ ______ &kp ESC  ______   &kp DEL  ______     ______      ______      ______      ______    ______      ______    ______ ______ ______ ______ ______ ______      
+            ______ ______ ______   ______   ______              ______      ______      ______      ______    ______ &mo ARROWS   ______ ______ ______ ______ ______ 
             >;
         };
 
-        backspace_layer {
+        both_hold {
             bindings = <
             ______ ______ ______      ______      ______                                                                                                       ______        ______        ______        ______   ______ 
             ______ ______ ______      &kp F12     ______      ______                                                                             ______        ______        ______        ______        ______   ______      
@@ -207,14 +206,14 @@
             >;
         };
 
-        none_layer {
+        numbers {
             bindings = <
             ______ ______ ______ ______ ______                                                                    ______ ______ ______ ______ ______
             ______ ______ ______ ______ ______ ______                                                      ______ ______ ______ ______ ______ ______
-            ______ ______ ______ ______ ______ ______                                                      ______ ______ ______ ______ ______ ______      
-            ______ ______ ______ ______ ______ ______                                                      ______ ______ ______ ______ ______ ______      
-            ______ ______ ______ ______ ______ ______    ______ ______ ______      ______ ______ ______    ______ ______ ______ ______ ______ ______      
-            ______ ______ ______ ______ ______           ______ ______ ______      ______ ______ ______           ______ ______ ______ ______ ______
+            ______ ______ ______ ______ ______ ______                                                      ______ &kp N7 &kp N8 &kp N9 ______ ______      
+            ______ ______ ______ ______ ______ ______                                                      ______ &kp N4 &kp N5 &kp N6 ______ ______      
+            ______ ______ ______ ______ ______ ______    ______ ______ ______      ______ ______ ______    ______ &kp N1 &kp N2 &kp N3 ______ ______      
+            ______ ______ ______ ______ ______           ______ ______ ______      ______ ______ &kp N1           ______ ______ ______ ______ ______
             >;
         };
     };
