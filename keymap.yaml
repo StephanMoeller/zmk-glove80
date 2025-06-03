@@ -587,11 +587,14 @@ combos:
 - p: [36, 37]
   k: F
   l: [default]
-- p: [48, 37]
+- p: [48, 49]
   k: Z
   l: [default]
-- p: [42, 43]
+- p: [41, 42]
   k: '-'
+  l: [default]
+- p: [42, 43]
+  k: Y
   l: [default]
 - p: [24, 25]
   k: '!'
