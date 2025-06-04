@@ -119,8 +119,8 @@
         
         // arrow layer combos
 
-        //combo_exclamation { timeout-ms = <50>; key-positions = <24 25>; bindings = <&kp LS(N1)>; layers = <1>;};
-        //combo_question { timeout-ms = <50>; key-positions = <30 31>; bindings = <&kp LS(MINUS)>;  layers = <1>; };
+        combo_exclamation { timeout-ms = <50>; key-positions = <24 25>; bindings = <&kp LS(N1)>; layers = <1>;};
+        combo_question { timeout-ms = <50>; key-positions = <30 31>; bindings = <&kp LS(MINUS)>;  layers = <1>; };
         combo_backslash { timeout-ms = <50>; key-positions = <48 49>; bindings = <&kp DK_BACK>; layers = <1>; };
         combo_and_ampersand { timeout-ms = <50>; key-positions = <37 38>; bindings = <&kp DK_AMP>;layers = <1>; };
         combo_or_pipe { timeout-ms = <50>; key-positions = <41 42>; bindings = <&kp DK_PIPE>; layers = <1>; };
@@ -147,8 +147,8 @@
         default_layer {
             bindings = <
            &kp RBKT        ______ ______        ______      ______                                                                                                                 ______     ______      ______          ______    &kp RBKT
-           ______          ______ ______        &kp Q       ______     ______                                                                                            ______    ______     &kp BSLH    ______          ______    ______
-           ______          ______ &kp W         &gui LGUI R &kp P      &kp B                                                                                             &kp K     &kp L      &gui LGUI O &kp U           ______    ______
+           ______          ______ ______        ______      ______     ______                                                                                            ______    ______     ______      ______          ______    ______
+           ______          &kp Q  &kp W         &gui LGUI R &kp P      &kp B                                                                                             &kp K     &kp L      &gui LGUI O &kp U           &kp BSLH  ______
            ______          &kp F  &lm LALT A    &lm LCTL S  &lm LSFT T &kp G                                                                                             &kp M     &rm LSFT N &rm LCTL E  &rm LALT I      &kp Y     ______
            ______          &kp Z  &kp X         &kp C       &kp D      ______   ______                  ______ ______      ______      ______ ______                     ______    &kp H      &kp COMMA   &lt WIN_NAV DOT &kp SLASH ______
            &magic MAGIC 0  ______ ______        ______      ______              &thumbs LEFT_HOLD ENTER ______ &bootloader &bootloader ______ &thumbs RIGHT_HOLD SPACE             ______     ______      ______          ______    ______
