@@ -51,7 +51,7 @@ layers:
   - ''
   - {t: X, h: numbers}
   - C
-  - D
+  - {t: D, h: numbers}
   - ''
   - ''
   - ''
@@ -70,7 +70,7 @@ layers:
   - ''
   - ''
   - ''
-  - left_hold
+  - {t: SPACE, h: left_hold}
   - ''
   - ''
   - ''
@@ -94,7 +94,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '!'
   - ENTER
   - ''
   - ''
@@ -114,7 +114,7 @@ layers:
   - HOME
   - UP
   - END
-  - ''
+  - '?'
   - ''
   - ''
   - '@'
@@ -556,12 +556,12 @@ layers:
   - ''
   - ''
   - ''
+  - {t: SPACE, h: left_hold}
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - '0'
+  - {t: SPACE, h: right_hold}
   - ''
   - ''
   - ''
@@ -585,16 +585,10 @@ combos:
   k: V
   l: [default]
 - p: [36, 37]
-  k: F
-  l: [default]
-- p: [48, 49]
   k: Z
   l: [default]
-- p: [41, 42]
-  k: '-'
-  l: [default]
 - p: [42, 43]
-  k: Y
+  k: '-'
   l: [default]
 - p: [24, 25]
   k: '!'
