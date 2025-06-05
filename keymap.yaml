@@ -49,7 +49,7 @@ layers:
   - ''
   - ''
   - {t: Z, h: fkeys}
-  - X
+  - {t: X, h: fkeys}
   - C
   - D
   - ''

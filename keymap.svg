@@ -306,7 +306,9 @@ svg.keymap { background-color: #222; }</style>
 <g transform="translate(140, 252)" class="key keypos-48">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">X</text>
-</g>
+<a href="#fkeys">
+<text x="0" y="24" class="key hold layer-activator">fkeys</text>
+</a></g>
 <g transform="translate(196, 252)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">C</text>
