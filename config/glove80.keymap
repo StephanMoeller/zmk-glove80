@@ -149,8 +149,8 @@
            &kp RBKT        ______       ______        ______      ______                                                                                                                 ______     ______      ______          ______    &kp RBKT
            ______          ______       ______        ______      ______     ______                                                                                            ______    ______     ______      ______          ______    ______
            ______          &kp Q        &kp W         &gui LGUI R &kp P      &kp B                                                                                             &kp K     &kp L      &gui LGUI O &kp U           &kp BSLH  ______
-           ______          &kp F        &lm LALT A    &lm LCTL S  &lm LSFT T &kp G                                                                                             &kp M     &rm LSFT N &rm LCTL E  &rm LALT I      &kp Y     ______
-           ______          &lt FKEYS Z  &kp X         &kp C       &kp D      ______   ______                  ______ ______      ______      ______ ______                     ______    &kp H      &kp COMMA   &lt WIN_NAV DOT &kp SLASH ______
+           ______          &kp F        &lm LALT A    &lm LCTL S  &lm LSFT T &kp G                                                                                             &kp M     &rm LSFT N &rm LCTL E  &rm LALT I      &kp SLASH ______
+           ______          &lt FKEYS Z  &kp X         &kp C       &kp D      ______   ______                  ______ ______      ______      ______ ______                     ______    &kp H      &kp COMMA   &lt WIN_NAV DOT ______    ______
            &magic MAGIC 0  ______       ______        ______      ______              &thumbs LEFT_HOLD ENTER ______ &bootloader &bootloader ______ &thumbs RIGHT_HOLD SPACE             ______     ______      ______          ______    ______
             >;
         };
@@ -190,6 +190,8 @@
 
         magic_layer {
             bindings = <
+            &bt BT_CLR        &none               &none           &none           &none                                                                                                           &none      &none      &none      &none      &bt BT_CLR_ALL
+            &none             &none               &none           &none           &none           &none                                                                                &none      &none      &none      &none      &none      &none
             &none             &rgb_ug RGB_SPI     &rgb_ug RGB_SAI &rgb_ug RGB_HUI &rgb_ug RGB_BRI &rgb_ug RGB_TOG                                                                      &none      &none      &none      &none      &none      &none
             &bootloader       &rgb_ug RGB_SPD     &rgb_ug RGB_SAD &rgb_ug RGB_HUD &rgb_ug RGB_BRD &rgb_ug RGB_EFF                                                                      &none      &none      &none      &none      &none      &bootloader
             &sys_reset        &none               &none           &none           &none           &none           &bt_2     &bt_3     &none            &none     &none     &none       &none      &none      &none      &none      &none      &sys_reset
