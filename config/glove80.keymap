@@ -112,10 +112,10 @@
         combo_oe { timeout-ms = <50>; key-positions = <29 31>; bindings = <&kp SQT>;  layers = <0>; };
         combo_aa { timeout-ms = <50>; key-positions = <30 31>; bindings = <&kp LBKT>;  layers = <0>; };
         combo_v { timeout-ms = <50>; key-positions = <37 38>; bindings = <&kp V>;  layers = <0>;};
-        combo_f { timeout-ms = <50>; key-positions = <36 37>; bindings = <&kp F>;  layers = <0>;};
-        combo_z { timeout-ms = <50>; key-positions = <48 49>; bindings = <&kp Z>;  layers = <0>;};
-        combo_y { timeout-ms = <50>; key-positions = <42 43>; bindings = <&kp Y>; layers = <0>;};
+        combo_z { timeout-ms = <50>; key-positions = <48 49>; bindings = <&kp F>;  layers = <0>;};
+        //combo_z { timeout-ms = <50>; key-positions = <48 49>; bindings = <&kp Z>;  layers = <0>;};
         combo_dash { timeout-ms = <50>; key-positions = <41 42>; bindings = <&kp SLASH>; layers = <0>;};
+        //combo_dash { timeout-ms = <50>; key-positions = <41 42>; bindings = <&kp SLASH>; layers = <0>;};
         
         // arrow layer combos
 
@@ -149,8 +149,8 @@
            &kp RBKT        ______       ______        ______      ______                                                                                                                 ______     ______      ______          ______    &kp RBKT
            ______          ______       ______        ______      ______     ______                                                                                            ______    ______     ______      ______          ______    ______
            ______          &kp Q        &kp W         &gui LGUI R &kp P      &kp B                                                                                             &kp K     &kp L      &gui LGUI O &kp U           &kp BSLH  ______
-           ______          &kp F        &lm LALT A    &lm LCTL S  &lm LSFT T &kp G                                                                                             &kp M     &rm LSFT N &rm LCTL E  &rm LALT I      &kp SLASH ______
-           ______          &lt FKEYS Z  &kp X         &kp C       &kp D      ______   ______                  ______ ______      ______      ______ ______                     ______    &kp H      &kp COMMA   &lt WIN_NAV DOT ______    ______
+           ______          &kp F        &lm LALT A    &lm LCTL S  &lm LSFT T &kp G                                                                                             &kp M     &rm LSFT N &rm LCTL E  &rm LALT I      &kp Y     ______
+           ______          &lt FKEYS Z  &kp X         &kp C       &kp D      ______   ______                  ______ ______      ______      ______ ______                     ______    &kp H      &kp COMMA   &lt WIN_NAV DOT &kp SLASH ______
            &magic MAGIC 0  ______       ______        ______      ______              &thumbs LEFT_HOLD ENTER ______ &bootloader &bootloader ______ &thumbs RIGHT_HOLD SPACE             ______     ______      ______          ______    ______
             >;
         };
