@@ -584,10 +584,10 @@ combos:
 - p: [37, 38]
   k: V
   l: [default]
-- p: [48, 49]
+- p: [36, 37]
   k: F
   l: [default]
-- p: [41, 42]
+- p: [42, 43]
   k: '-'
   l: [default]
 - p: [24, 25]

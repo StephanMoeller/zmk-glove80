@@ -437,12 +437,12 @@ svg.keymap { background-color: #222; }</style>
 <text x="224" y="196" class="combo tap">V</text>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="154" y="239" width="28" height="26" class="combo"/>
-<text x="168" y="252" class="combo tap">F</text>
+<rect rx="6" ry="6" x="154" y="183" width="28" height="26" class="combo"/>
+<text x="168" y="196" class="combo tap">F</text>
 </g>
 <g class="combo combopos-6">
-<rect rx="6" ry="6" x="770" y="183" width="28" height="26" class="combo"/>
-<text x="784" y="196" class="combo tap">-</text>
+<rect rx="6" ry="6" x="826" y="183" width="28" height="26" class="combo"/>
+<text x="840" y="196" class="combo tap">-</text>
 </g>
 </g>
 </g>
