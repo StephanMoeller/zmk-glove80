@@ -45,7 +45,7 @@ layers:
   - {t: N, h: LSFT}
   - {t: E, h: LCTL}
   - {t: I, h: LALT}
-  - '-'
+  - Y
   - ''
   - ''
   - {t: Z, h: fkeys}
@@ -63,7 +63,7 @@ layers:
   - H
   - ','
   - {t: ., h: win_nav}
-  - ''
+  - '-'
   - ''
   - ''
   - ''
@@ -584,14 +584,8 @@ combos:
 - p: [37, 38]
   k: V
   l: [default]
-- p: [36, 37]
-  k: F
-  l: [default]
 - p: [48, 49]
-  k: Z
-  l: [default]
-- p: [42, 43]
-  k: Y
+  k: F
   l: [default]
 - p: [41, 42]
   k: '-'
