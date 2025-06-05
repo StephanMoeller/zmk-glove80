@@ -20,7 +20,7 @@
 #define BOTH_HOLD 3 
 #define MAGIC 4
 #define WIN_NAV 5
-#define NUMBERS 6
+#define FKEYS 6
 
 #define DA_HAT LS(RBKT)
 #define DA_TILDE RA(RBKT)
@@ -146,12 +146,12 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-           &kp RBKT        ______ ______        ______      ______                                                                                                                 ______     ______      ______          ______    &kp RBKT
-           ______          ______ ______        ______      ______     ______                                                                                            ______    ______     ______      ______          ______    ______
-           ______          &kp Q  &kp W         &gui LGUI R &kp P      &kp B                                                                                             &kp K     &kp L      &gui LGUI O &kp U           &kp BSLH  ______
-           ______          &kp F  &lm LALT A    &lm LCTL S  &lm LSFT T &kp G                                                                                             &kp M     &rm LSFT N &rm LCTL E  &rm LALT I      &kp Y     ______
-           ______          &kp Z  &kp X         &kp C       &kp D      ______   ______                  ______ ______      ______      ______ ______                     ______    &kp H      &kp COMMA   &lt WIN_NAV DOT &kp SLASH ______
-           &magic MAGIC 0  ______ ______        ______      ______              &thumbs LEFT_HOLD ENTER ______ &bootloader &bootloader ______ &thumbs RIGHT_HOLD SPACE             ______     ______      ______          ______    ______
+           &kp RBKT        ______       ______        ______      ______                                                                                                                 ______     ______      ______          ______    &kp RBKT
+           ______          ______       ______        ______      ______     ______                                                                                            ______    ______     ______      ______          ______    ______
+           ______          &kp Q        &kp W         &gui LGUI R &kp P      &kp B                                                                                             &kp K     &kp L      &gui LGUI O &kp U           &kp BSLH  ______
+           ______          &kp F        &lm LALT A    &lm LCTL S  &lm LSFT T &kp G                                                                                             &kp M     &rm LSFT N &rm LCTL E  &rm LALT I      &kp Y     ______
+           ______          &lt FKEYS Z  &kp X         &kp C       &kp D      ______   ______                  ______ ______      ______      ______ ______                     ______    &kp H      &kp COMMA   &lt WIN_NAV DOT &kp SLASH ______
+           &magic MAGIC 0  ______       ______        ______      ______              &thumbs LEFT_HOLD ENTER ______ &bootloader &bootloader ______ &thumbs RIGHT_HOLD SPACE             ______     ______      ______          ______    ______
             >;
         };
 
@@ -208,14 +208,14 @@
             >;
         };
 
-        numbers {
+        fkeys {
             bindings = <
-            ______ ______ ______ ______   ______                                                                                                     ______ ______ ______ ______  ______
-            ______ ______ ______ ______   ______   ______                                                                                    ______  ______ ______ ______ ______  ______
-            ______ ______ ______ ______   ______   ______                                                                                    ______  &kp N7 &kp N8 &kp N9 ______  ______      
-            ______ ______ ______ &kp LCTL &kp LCTL ______                                                                                    &kp DOT &kp N4 &kp N5 &kp N6 &kp DOT ______      
-            ______ ______ ______ ______   ______   ______  ______                  ______ ______      ______ ______ ______                   ______  &kp N1 &kp N2 &kp N3 ______  ______      
-            ______ ______ ______ ______   ______           &thumbs LEFT_HOLD SPACE ______ ______      ______ ______ &thumbs RIGHT_HOLD SPACE         ______ ______ ______ ______  ______
+            ______ ______ ______   ______   ______                                                                                    ______ ______ ______ ______ ______
+            ______ ______ ______   ______   ______   ______                                                                   ______  ______ ______ ______ ______ ______
+            ______ ______ ______   ______   ______   ______                                                                   &kp F10 &kp F7 &kp F8 &kp F9 ______ ______      
+            ______ ______ &kp LALT &kp LCTL &kp LSFT ______                                                                   &kp F11 &kp F4 &kp F5 &kp F6 ______ ______      
+            ______ ______ ______   ______   ______   ______  ______ ______ ______      ______ ______ ______                   &kp F12 &kp F1 &kp F2 &kp F3 ______ ______      
+            ______ ______ ______   ______   ______           ______ ______ ______      ______ ______ ______                   ______ ______ ______ ______ ______
             >;
         };
     };
