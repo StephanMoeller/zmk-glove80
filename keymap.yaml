@@ -585,7 +585,7 @@ combos:
   k: V
   l: [default]
 - p: [36, 37]
-  k: F
+  k: Z
   l: [default]
 - p: [42, 43]
   k: '-'
