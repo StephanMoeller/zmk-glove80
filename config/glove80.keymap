@@ -159,7 +159,7 @@
             bindings = <
             ______ ______      ______          ______          ______                                                                                                           ______     ______     ______    ______        ______
             ______ ______      ______          ______          ______          ______                                                                                ______     ______     ______     ______    ______        ______
-            ______ &kp DK_LT   &kp LS(N1)      &kp LS(N0)      &kp DK_GT       &kp LS(N5)                                                                            &kp LS(N7) &kp HOME   &kp UP     &kp END   &kp LS(MINUS) ______
+            ______ &kp LS(N1)  &kp DK_LT       &kp LS(N0)      &kp DK_GT       &kp LS(N5)                                                                            &kp LS(N7) &kp HOME   &kp UP     &kp END   &kp LS(MINUS) ______
             ______ &kp RA(N2)  &lm LALT RA(N7) &lm LCTL LS(N8) &lm LSFT LS(N9) &kp RA(N0)                                                                            &kp PG_UP  &kp LEFT   &kp DOWN   &kp RIGHT &kp PG_DN     ______
             ______ ______      &kp LS(N3)      &kp RA(N8)      &kp RA(N9)      ______     ______            ______      ______      ______      ______    ______     ______     &kp TAB    &kp LS(N2) &kp ESC   ______        ______
             ______ ______      ______          ______          ______             &thumbs LEFT_HOLD SPACE   ______      ______      ______      ______    ______                ______     ______     ______    ______        ______
