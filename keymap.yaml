@@ -26,7 +26,7 @@ layers:
   - ''
   - Q
   - W
-  - '&lm R'
+  - R
   - P
   - B
   - K
@@ -48,22 +48,22 @@ layers:
   - Y
   - ''
   - ''
-  - {t: Z, h: fkeys}
+  - ''
   - {t: X, h: fkeys}
   - C
   - {t: D, h: LGUI}
-  - V
   - ''
   - ''
   - ''
   - ''
   - ''
   - ''
-  - J
+  - ''
+  - ''
   - {t: H, h: LGUI}
   - ','
   - {t: ., h: win_nav}
-  - '-'
+  - ''
   - ''
   - ''
   - ''
@@ -534,8 +534,8 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
   - ''
+  - {type: held}
   - ''
   - ''
   - ''
