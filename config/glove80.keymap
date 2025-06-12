@@ -150,7 +150,7 @@
             bindings = <
            &kp RBKT        ______       ______        ______      ______                                                                                                                  ______       ______      ______          ______    &kp RBKT
            ______          ______       &kp ENTER     ______      ______      ______                                                                                            ______    ______       &kp ENTER   ______          ______    ______
-           ______          &kp Q        &kp W         &lm R       &kp P       &kp B                                                                                             &kp K     &kp L        &kp O       &kp U           &kp BSLH  ______
+           ______          &kp Q        &kp W         &kp R       &kp P       &kp B                                                                                             &kp K     &kp L        &kp O       &kp U           &kp BSLH  ______
            ______          &kp F        &lm LALT A    &lm LCTL S  &lm LSFT T  &kp G                                                                                             &kp M     &rm LSFT N   &rm LCTL E  &rm LALT I      &kp Y     ______
            ______          &lt FKEYS Z  &lt FKEYS X   &kp C       &gui LGUI D &kp V    ______                  ______ ______      ______      ______ ______                     &kp J     &gui LGUI H  &kp COMMA   &lt WIN_NAV DOT &kp SLASH ______
            &magic MAGIC 0  ______       ______        ______      ______               &thumbs LEFT_HOLD ENTER ______ &bootloader &bootloader ______ &thumbs RIGHT_HOLD SPACE             ______       ______      ______          ______    ______
