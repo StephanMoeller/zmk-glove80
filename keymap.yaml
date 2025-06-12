@@ -13,25 +13,25 @@ layers:
   - ''
   - ''
   - ''
+  - ENTER
   - ''
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - ENTER
   - ''
   - ''
   - ''
   - ''
   - Q
   - W
-  - {t: R, h: LGUI}
+  - '&lm R'
   - P
   - B
   - K
   - L
-  - {t: O, h: LGUI}
+  - O
   - U
   - ''''
   - ''
@@ -51,7 +51,7 @@ layers:
   - {t: Z, h: fkeys}
   - {t: X, h: fkeys}
   - C
-  - D
+  - {t: D, h: LGUI}
   - V
   - ''
   - ''
@@ -60,7 +60,7 @@ layers:
   - ''
   - ''
   - J
-  - H
+  - {t: H, h: LGUI}
   - ','
   - {t: ., h: win_nav}
   - '-'
@@ -611,3 +611,7 @@ combos:
 - p: [38, 41]
   k: Alt+F4
   l: [both_hold]
+- p: [36, 37, 38]
+  k: ENTER
+- p: [41, 42, 43]
+  k: ENTER
