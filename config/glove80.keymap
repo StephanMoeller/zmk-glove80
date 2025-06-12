@@ -127,8 +127,8 @@
         combo_plus { timeout-ms = <50>; key-positions = <42 43>; bindings = <&kp DK_PLUS>; layers = <1>; };
 
         combo_alt_f4 { timeout-ms = <50>; key-positions = <38 41>; bindings = <&kp LA(F4)>; layers = <3>;};
-        combo_enter_left { timeout-ms = <50>; key-positions = <36 37 38>; bindings = <&kp ENTER>; };
-        combo_enter_right { timeout-ms = <50>; key-positions = <41 42 43>; bindings = <&kp ENTER>; };
+        //combo_enter_left { timeout-ms = <50>; key-positions = <36 37 38>; bindings = <&kp ENTER>; };
+        //combo_enter_right { timeout-ms = <50>; key-positions = <41 42 43>; bindings = <&kp ENTER>; };
       };
 
     };
@@ -149,7 +149,7 @@
         default_layer {
             bindings = <
            &kp RBKT        ______ ______        ______      ______                                                                                                                  ______       ______      ______          ______    &kp RBKT
-           ______          ______ &kp ENTER     ______      ______      ______                                                                                            ______    ______       &kp ENTER   ______          ______    ______
+           ______          ______ ______        ______      ______      ______                                                                                            ______    ______       ______      ______          ______    ______
            ______          &kp Q  &kp W         &kp R       &kp P       &kp B                                                                                             &kp K     &kp L        &kp O       &kp U           &kp BSLH  ______
            ______          &kp F  &lm LALT A    &lm LCTL S  &lm LSFT T  &kp G                                                                                             &kp M     &rm LSFT N   &rm LCTL E  &rm LALT I      &kp Y     ______
            ______          ______ &lt FKEYS X   &kp C       &gui LGUI D ______   ______                  ______ ______      ______      ______ ______                     ______    &gui LGUI H  &kp COMMA   &lt WIN_NAV DOT ______    ______

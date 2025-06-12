@@ -166,7 +166,6 @@ svg.keymap { background-color: #222; }</style>
 </g>
 <g transform="translate(140, 84)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">ENTER</text>
 </g>
 <g transform="translate(196, 84)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -185,7 +184,6 @@ svg.keymap { background-color: #222; }</style>
 </g>
 <g transform="translate(812, 84)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">ENTER</text>
 </g>
 <g transform="translate(868, 84)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -443,18 +441,6 @@ svg.keymap { background-color: #222; }</style>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="826" y="183" width="28" height="26" class="combo"/>
 <text x="840" y="196" class="combo tap">-</text>
-</g>
-<g class="combo combopos-7">
-<path d="M196,196 l-37,0" class="combo"/>
-<path d="M196,196 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="182" y="183" width="28" height="26" class="combo"/>
-<text x="196" y="196" class="combo tap">ENTER</text>
-</g>
-<g class="combo combopos-8">
-<path d="M812,196 l-37,0" class="combo"/>
-<path d="M812,196 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="798" y="183" width="28" height="26" class="combo"/>
-<text x="812" y="196" class="combo tap">ENTER</text>
 </g>
 </g>
 </g>
@@ -761,18 +747,6 @@ svg.keymap { background-color: #222; }</style>
 <rect rx="6" ry="6" x="826" y="183" width="28" height="26" class="combo"/>
 <text x="840" y="196" class="combo tap">+</text>
 </g>
-<g class="combo combopos-6">
-<path d="M196,196 l-37,0" class="combo"/>
-<path d="M196,196 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="182" y="183" width="28" height="26" class="combo"/>
-<text x="196" y="196" class="combo tap">ENTER</text>
-</g>
-<g class="combo combopos-7">
-<path d="M812,196 l-37,0" class="combo"/>
-<path d="M812,196 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="798" y="183" width="28" height="26" class="combo"/>
-<text x="812" y="196" class="combo tap">ENTER</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 1042)" class="layer-left_hold">
@@ -1038,18 +1012,6 @@ svg.keymap { background-color: #222; }</style>
 </g>
 <g transform="translate(980, 336)" class="key keypos-79">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-</g>
-<g class="combo combopos-0">
-<path d="M196,196 l-37,0" class="combo"/>
-<path d="M196,196 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="182" y="183" width="28" height="26" class="combo"/>
-<text x="196" y="196" class="combo tap">ENTER</text>
-</g>
-<g class="combo combopos-1">
-<path d="M812,196 l-37,0" class="combo"/>
-<path d="M812,196 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="798" y="183" width="28" height="26" class="combo"/>
-<text x="812" y="196" class="combo tap">ENTER</text>
 </g>
 </g>
 </g>
@@ -1319,18 +1281,6 @@ svg.keymap { background-color: #222; }</style>
 <path d="M504,196 l233,0" class="combo"/>
 <rect rx="6" ry="6" x="490" y="183" width="28" height="26" class="combo"/>
 <text x="504" y="196" class="combo tap">Alt+F4</text>
-</g>
-<g class="combo combopos-1">
-<path d="M196,196 l-37,0" class="combo"/>
-<path d="M196,196 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="182" y="183" width="28" height="26" class="combo"/>
-<text x="196" y="196" class="combo tap">ENTER</text>
-</g>
-<g class="combo combopos-2">
-<path d="M812,196 l-37,0" class="combo"/>
-<path d="M812,196 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="798" y="183" width="28" height="26" class="combo"/>
-<text x="812" y="196" class="combo tap">ENTER</text>
 </g>
 </g>
 </g>
@@ -1625,18 +1575,6 @@ svg.keymap { background-color: #222; }</style>
 <text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 78%">both_hold</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
-<g class="combo combopos-0">
-<path d="M196,196 l-37,0" class="combo"/>
-<path d="M196,196 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="182" y="183" width="28" height="26" class="combo"/>
-<text x="196" y="196" class="combo tap">ENTER</text>
-</g>
-<g class="combo combopos-1">
-<path d="M812,196 l-37,0" class="combo"/>
-<path d="M812,196 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="798" y="183" width="28" height="26" class="combo"/>
-<text x="812" y="196" class="combo tap">ENTER</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 2606)" class="layer-win_nav">
@@ -1889,18 +1827,6 @@ svg.keymap { background-color: #222; }</style>
 </g>
 <g transform="translate(980, 336)" class="key keypos-79">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-</g>
-<g class="combo combopos-0">
-<path d="M196,196 l-37,0" class="combo"/>
-<path d="M196,196 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="182" y="183" width="28" height="26" class="combo"/>
-<text x="196" y="196" class="combo tap">ENTER</text>
-</g>
-<g class="combo combopos-1">
-<path d="M812,196 l-37,0" class="combo"/>
-<path d="M812,196 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="798" y="183" width="28" height="26" class="combo"/>
-<text x="812" y="196" class="combo tap">ENTER</text>
 </g>
 </g>
 </g>
@@ -2161,18 +2087,6 @@ svg.keymap { background-color: #222; }</style>
 </g>
 <g transform="translate(980, 336)" class="key keypos-79">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-</g>
-<g class="combo combopos-0">
-<path d="M196,196 l-37,0" class="combo"/>
-<path d="M196,196 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="182" y="183" width="28" height="26" class="combo"/>
-<text x="196" y="196" class="combo tap">ENTER</text>
-</g>
-<g class="combo combopos-1">
-<path d="M812,196 l-37,0" class="combo"/>
-<path d="M812,196 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="798" y="183" width="28" height="26" class="combo"/>
-<text x="812" y="196" class="combo tap">ENTER</text>
 </g>
 </g>
 </g>
