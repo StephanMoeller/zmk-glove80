@@ -53,14 +53,7 @@
 #define ENT ENTER
 / {
     behaviors {
-      gui: homerow_mods_gui {
-        compatible = "zmk,behavior-hold-tap";
-          label = "HOMEROW_MODS_GUI";
-          #binding-cells = <2>;
-          tapping-term-ms = <350>;
-          flavor = "tap-preferred";
-          bindings = <&kp>, <&kp>;
-      };
+      gui: homerow_mods_gui { compatible = "zmk,behavior-hold-tap"; label = "HOMEROW_MODS_GUI"; #binding-cells = <2>; tapping-term-ms = <350>; flavor = "tap-preferred"; bindings = <&kp>, <&kp>; };
       rm: homerow_mods_right {
           compatible = "zmk,behavior-hold-tap";
           label = "HOMEROW_MODS";
@@ -148,12 +141,12 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-           &kp RBKT        ______ ______        ______      ______                                                                                                                  ______       ______      ______          ______    &kp RBKT
-           ______          ______ ______        ______      ______      ______                                                                                            ______    ______       ______      ______          ______    ______
-           ______          &kp Q  &kp W         &gui LGUI R &kp P       &kp B                                                                                             &kp K     &kp L        &gui LGUI O &kp U           &kp BSLH  ______
-           ______          &kp F  &lm LALT A    &lm LCTL S  &lm LSFT T  &kp G                                                                                             &kp M     &rm LSFT N   &rm LCTL E  &rm LALT I      &kp Y     ______
-           ______          ______ &lt FKEYS X   &kp C       &kp D       ______   ______                  ______ ______      ______      ______ ______                     ______    &kp H        &kp COMMA   &lt WIN_NAV DOT ______    ______
-           &magic MAGIC 0  ______ ______        ______      ______               &thumbs LEFT_HOLD ENTER ______ &bootloader &bootloader ______ &thumbs RIGHT_HOLD SPACE             ______       ______      ______          ______    ______
+           &kp RBKT        ______ ______     ______      ______                                                                                                                  ______       ______      ______          ______    &kp RBKT
+           ______          ______ ______     ______      ______      ______                                                                                            ______    ______       ______      ______          ______    ______
+           ______          &kp Q  &kp W      &gui LGUI R &kp P       &kp B                                                                                             &kp K     &kp L        &gui LGUI O &kp U           &kp BSLH  ______
+           ______          &kp F  &lm LALT A &lm LCTL S  &lm LSFT T  &kp G                                                                                             &kp M     &rm LSFT N   &rm LCTL E  &rm LALT I      &kp Y     ______
+           ______          ______ &kp X      &kp C       &kp D       ______   ______                  ______ ______      ______      ______ ______                     ______    &kp H        &kp COMMA   &lt WIN_NAV DOT ______    ______
+           &magic MAGIC 0  ______ ______     ______      ______               &thumbs LEFT_HOLD ENTER ______ &bootloader &bootloader ______ &thumbs RIGHT_HOLD SPACE             ______       ______      ______          ______    ______
             >;
         };
 
@@ -181,12 +174,12 @@
 
         both_hold {
             bindings = <
-            ______ ______ ______   ______   ______                                                                                          ______        ______        ______        ______ ______ 
-            ______ ______ ______   ______   ______   &hat_macro                                                               ______        ______        ______        ______        ______ ______      
-            ______ ______ ______   ______   ______   ______                                                                   &tilde_macro  &kp SPACE     &kp SPACE     &kp SPACE     ______ ______
-            ______ ______ &kp LALT &kp LCTL &kp LSFT ______                                                                   &kp DA_DLR    &rm LSFT BKSP &rm LCTL BKSP &rm LALT BKSP ______ ______
-            ______ ______ ______   ______   ______   ______     ______  ______ ______      ______ ______ ______               ______        &kp DEL       &kp DEL       &kp DEL       ______ ______
-            ______ ______ ______   ______   ______              ______  ______ ______      ______ ______ ______               ______        ______        ______        ______        ______ 
+            ______ ______ ______      ______      ______                                                                                           ______        ______        ______        ______ ______ 
+            ______ ______ ______      ______      ______      &hat_macro                                                             ______        ______        ______        ______        ______ ______      
+            ______ ______ &kp F7      &kp F8      &kp F9      &kp F10                                                                &tilde_macro  &kp SPACE     &kp SPACE     &kp SPACE     ______ ______
+            ______ ______ &lm LALT F4 &lm LCTL F5 &lm LSFT F6 &kp F11                                                                &kp DA_DLR    &rm LSFT BKSP &rm LCTL BKSP &rm LALT BKSP ______ ______
+            ______ ______ &kp F1      &kp F2      &kp F3      &kp F12  ______  ______ ______      ______ ______ ______               ______        &kp DEL       &kp DEL       &kp DEL       ______ ______
+            ______ ______ ______      ______      ______               ______  ______ ______      ______ ______ ______               ______        ______        ______        ______        ______ 
             >;
         };
 
@@ -209,17 +202,6 @@
             ______ &kp LG(N4)  ______ &kp LG(N2) &kp LG(N5) ______                                                                             ______ ______ ______ ______ ______ ______
             ______ ______      ______ &kp LG(N3) &kp LG(N8) ______            ______     ______      ______      ______      ______    ______  ______ ______ ______ ______ ______ ______
             ______ ______      ______ ______     ______                       ______ ______      ______      ______      ______    ______             ______ ______ ______ ______ ______
-            >;
-        };
-
-        fkeys {
-            bindings = <
-            ______ ______ ______   ______   ______                                                                                    ______ ______ ______ ______ ______
-            ______ ______ ______   ______   ______   ______                                                                   ______  ______ ______ ______ ______ ______
-            ______ ______ ______   ______   ______   ______                                                                   &kp F10 &kp F7 &kp F8 &kp F9 ______ ______      
-            ______ ______ &kp LALT &kp LCTL &kp LSFT ______                                                                   &kp F11 &kp F4 &kp F5 &kp F6 ______ ______      
-            ______ ______ ______   ______   ______   ______  ______ ______ ______      ______ ______ ______                   &kp F12 &kp F1 &kp F2 &kp F3 ______ ______      
-            ______ ______ ______   ______   ______           ______ ______ ______      ______ ______ ______                   ______ ______ ______ ______ ______
             >;
         };
     };
