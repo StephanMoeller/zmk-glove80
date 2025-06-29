@@ -33,6 +33,7 @@
 #define DK_BACK RA(NON_US_BACKSLASH)
 #define DK_AMP LS(N6)
 #define DK_PIPE RA(EQUAL)
+#define DK_BACKTICK EQUAL
 #define DK_PLUS MINUS
 #define LEFT_HAND_KEYS  \
      0  1  2  3  4      \
