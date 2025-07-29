@@ -175,15 +175,15 @@
 
         both_hold {
             bindings = <
-            ______ ______ ______      ______      ______                                                                                           ______        ______        ______        ______ ______ 
-            ______ ______ ______      ______      ______      &hat_macro                                                             ______        ______        ______        ______        ______ ______      
-            ______ ______ &kp F7      &kp F8      &kp F9      &kp F10                                                                &tilde_macro  &kp SPACE     &kp SPACE     &kp SPACE     ______ ______
-            ______ ______ &lm LALT F4 &lm LCTL F5 &lm LSFT F6 &kp F11                                                                &kp DA_DLR    &rm LSFT BKSP &rm LCTL BKSP &rm LALT BKSP ______ ______
-            ______ ______ &kp F1      &kp F2      &kp F3      &kp F12  ______  ______ ______      ______ ______ ______               ______        &kp DEL       &kp DEL       &kp DEL       ______ ______
-            ______ ______ ______      ______      ______               ______  ______ ______      ______ ______ ______               ______        ______        ______        ______        ______ 
+            ______ ______          ______      ______      ______                                                                                           ______        ______        ______        ______ ______ 
+            ______ ______          ______      ______      ______      &hat_macro                                                             ______        ______        ______        ______        ______ ______      
+            ______ &kp DK_BACKTICK &kp F7      &kp F8      &kp F9      &kp F10                                                                &tilde_macro  &kp SPACE     &kp SPACE     &kp SPACE     ______ ______
+            ______ ______          &lm LALT F4 &lm LCTL F5 &lm LSFT F6 &kp F11                                                                &kp DA_DLR    &rm LSFT BKSP &rm LCTL BKSP &rm LALT BKSP ______ ______
+            ______ ______          &kp F1      &kp F2      &kp F3      &kp F12  ______  ______ ______      ______ ______ ______               ______        &kp DEL       &kp DEL       &kp DEL       ______ ______
+            ______ ______          ______      ______      ______               ______  ______ ______      ______ ______ ______               ______        ______        ______        ______        ______ 
             >;
         };
-
+<F10><F11><F3><F2>
         magic_layer {
             bindings = <
             &bt BT_CLR        &none               &none           &none           &none                                                                                                           &none      &none      &none      &none      &bt BT_CLR_ALL
