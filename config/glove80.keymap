@@ -183,7 +183,6 @@
             ______ ______          ______      ______      ______               ______  ______ ______      ______ ______ ______               ______        ______        ______        ______        ______ 
             >;
         };
-<F10><F11><F3><F2>
         magic_layer {
             bindings = <
             &bt BT_CLR        &none               &none           &none           &none                                                                                                           &none      &none      &none      &none      &bt BT_CLR_ALL
