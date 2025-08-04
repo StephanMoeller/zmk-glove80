@@ -111,7 +111,9 @@
         combo_dash { timeout-ms = <50>; key-positions = <42 43>; bindings = <&kp SLASH>; layers = <0>;};
         //combo_dash { timeout-ms = <50>; key-positions = <41 42>; bindings = <&kp SLASH>; layers = <0>;};
         
-        // arrow layer combos
+        // combo gui on home row
+        combo_gui_left { timeout-ms = <50>; key-positions = <36 37 38>; bindings = <&kp GUI>; layers = <0>;};
+        combo_gui_right { timeout-ms = <50>; key-positions = <41 42 43>; bindings = <&kp GUI>; layers = <0>;};
 
         combo_exclamation { timeout-ms = <50>; key-positions = <24 25>; bindings = <&kp LS(N1)>; layers = <1>;};
         combo_question { timeout-ms = <50>; key-positions = <30 31>; bindings = <&kp LS(MINUS)>;  layers = <1>; };
@@ -146,7 +148,7 @@
            ______          ______ ______     ______      ______      ______                                                                                            ______    ______       ______         ______          ______    ______
            ______          &kp Q  &kp W      &kp R       &kp P       &kp B                                                                                             &kp K     &kp L        &kp O          &kp U           &kp BSLH  ______
            ______          &kp F  &lm LALT A &lm LCTL S  &lm LSFT T  &kp G                                                                                             &kp M     &rm LSFT N   &rm LCTL E     &rm LALT I      &kp Y     ______
-           ______          ______ &kp X      &gui LGUI C &kp D ______   ______                  ______ ______      ______      ______ ______                           ______    &kp H        &gui GUI COMMA &lt WIN_NAV DOT ______    ______
+           ______          ______ &kp X      &kp C       &kp D ______   ______                  ______ ______      ______      ______ ______                           ______    &kp H        &kp COMMA      &lt WIN_NAV DOT ______    ______
            &magic MAGIC 0  ______ ______     ______      ______               &thumbs LEFT_HOLD ENTER ______ &bootloader &bootloader ______ &thumbs RIGHT_HOLD SPACE             ______       ______         ______          ______    ______
             >;
         };
