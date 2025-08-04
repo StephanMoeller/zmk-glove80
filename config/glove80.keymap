@@ -112,8 +112,8 @@
         //combo_dash { timeout-ms = <50>; key-positions = <41 42>; bindings = <&kp SLASH>; layers = <0>;};
         
         // combo gui on home row
-        combo_gui_left { timeout-ms = <50>; key-positions = <36 37 38>; bindings = <&kp GUI>; layers = <0>;};
-        combo_gui_right { timeout-ms = <50>; key-positions = <41 42 43>; bindings = <&kp GUI>; layers = <0>;};
+        combo_gui_left { timeout-ms = <50>; key-positions = <36 37 38>; bindings = <&mo GUI>; layers = <0>;};
+        combo_gui_right { timeout-ms = <50>; key-positions = <41 42 43>; bindings = <&mo GUI>; layers = <0>;};
 
         combo_exclamation { timeout-ms = <50>; key-positions = <24 25>; bindings = <&kp LS(N1)>; layers = <1>;};
         combo_question { timeout-ms = <50>; key-positions = <30 31>; bindings = <&kp LS(MINUS)>;  layers = <1>; };
