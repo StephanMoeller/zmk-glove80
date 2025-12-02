@@ -143,7 +143,7 @@
         default_layer {
             bindings = <
            &kp RBKT        ______     ______     ______      ______                                                                                                                  ______       ______      ______          ______    &kp RBKT
-           ______          ______     ______     &kp X       &kp X       ______                                                                                            ______    ______       ______      ______          ______    ______
+           ______          ______     ______     &kp ENTER   ______      ______                                                                                            ______    ______       &kp ENTER   ______          ______    ______
            ______          &kp Q      &kp W      &gui LGUI R &kp P       &kp B                                                                                             &kp K     &kp L        &gui LGUI O &kp U           &kp BSLH  ______
            ______          &kp F  &lm LALT A &lm LCTL S  &lm LSFT T  &kp G                                                                                             &kp M     &rm LSFT N   &rm LCTL E  &rm LALT I      &kp Y     ______
            ______          ______     &kp X      &kp C       &kp D       &kp V   ______                  ______ ______      ______      ______ ______                     &kp J    &kp H        &kp COMMA   &lt WIN_NAV DOT ______    ______
@@ -155,7 +155,7 @@
             bindings = <
             ______ ______      ______          ______          ______                                                                                                           ______     ______     ______    ______        ______
             ______ ______      ______          ______          ______          ______                                                                                ______     ______     ______     ______    ______        ______
-            ______ &kp LS(N1)  &kp DK_LT       &kp LS(N0)      &kp DK_GT       &kp LS(N5)                                                                            &kp LS(N7) &kp HOME   &kp UP     &kp END   &kp LS(MINUS) ______
+            ______ &kp LS(N1)  &kp DK_LT       &kp LS(N0)      &kp DK_GT       &kp LS(N5)                                                                            &kp LS(N7) &kp HOME   &kp UP     &kp END   &kp K_APP     ______
             ______ &kp RA(N2)  &lm LALT RA(N7) &lm LCTL LS(N8) &lm LSFT LS(N9) &kp RA(N0)                                                                            &kp PG_UP  &kp LEFT   &kp DOWN   &kp RIGHT &kp PG_DN     ______
             ______ ______      &kp LS(N3)      &kp RA(N8)      &kp RA(N9)      ______     ______            ______      ______      ______      ______    ______     ______     &kp TAB    &kp LS(N2) &kp ESC   ______        ______
             ______ ______      ______          ______          ______             &thumbs LEFT_HOLD SPACE   ______      ______      ______      ______    ______                ______     ______     ______    ______        ______
@@ -166,7 +166,7 @@
             bindings = <
             ______ ______ ______   ______   ______                                                                                       ______  ______ ______ ______  ______ 
             ______ ______ ______   ______   ______    ______                                                                   ______    ______  ______ ______ ______  ______      
-            ______ ______ ______   &kp LGUI &kp K_APP ______                                                                   ______    &kp N7 &kp N8  &kp N9 ______  ______      
+            ______ ______ ______   &kp LGUI ______    ______                                                                   ______    &kp N7 &kp N8  &kp N9 ______  ______      
             ______ ______ &kp LALT &kp LCTL &kp LSFT  ______                                                                   &kp SPACE &kp N4 &kp N5  &kp N6 &kp DOT ______      
             ______ ______ &kp ESC  ______   &kp DEL   ______    ______ ______ ______      ______ ______ ______                 ______    &kp N1 &kp N2  &kp N3 ______  ______      
             ______ ______ ______   ______   ______              ______ ______ ______      ______ ______ &thumbs RIGHT_HOLD N0            ______ ______  ______ ______  ______ 
